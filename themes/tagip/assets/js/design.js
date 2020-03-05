@@ -208,6 +208,8 @@ jQuery(document).ready(function(){
 				animation = smartAnimation(params);
 				animation.play();
 				jQuery('.tg-smart-menu').attr('data-menu', 1);
+				jQuery(window).trigger('resize');
+				resizeImg('page1');
 				break;
 			
 			case 'index2':
@@ -221,7 +223,6 @@ jQuery(document).ready(function(){
 				}else{
 					if(animation2){
 						animation2.destroy();
-						console.log('destroy');
 					}
 					params = {
 						container: document.getElementById('imagefond2'),
@@ -231,6 +232,7 @@ jQuery(document).ready(function(){
 					animation2 = smartAnimation(params);
 					animation2.play();
 				}
+				resizeImg('page2');
 				break;
 			
 			case 'index3':
@@ -308,11 +310,39 @@ jQuery(document).ready(function(){
 function resizeImg(type){
 	h = (jQuery(window).outerHeight());
 	w = (jQuery(window).outerWidth());
+	surplusH = 35;
 	
 	switch(type){
+		case 'page1' :
+			if(h > 900){
+				// Page 1
+				if(jQuery('#content1').css('display') != 'none'){
+					maxHeight1 = jQuery('#content1 .tg-ct-0b').outerHeight(false);
+					titremarge1 = 0;
+					marge1 = Math.floor((h - maxHeight1 - surplusH) / 2);
+					jQuery('#content1 .tg-ct-0b').css({'marginBottom' : marge1 + titremarge1, 'marginTop' : marge1 - titremarge1});
+				}
+			}else{
+				jQuery('#content1 .tg-ct-0b').removeAttr('style');
+			}
+			break;
+			
+		case 'page2' : 
+			if(h > 900){
+				// Page 2
+				if(jQuery('#content2').css('display') != 'none'){
+					maxHeight2 = jQuery('#content2 .tg-ct-0b').outerHeight(false);
+					titremarge2 = parseInt(jQuery('#content2 h1').css('marginTop'));
+					marge2 = Math.floor((h - maxHeight2 - surplusH) / 2);
+					jQuery('#content2 .tg-ct-0b').css({'marginBottom' : marge2 + titremarge2, 'marginTop' : marge2 - titremarge2});
+				}
+			}else{
+				jQuery('#content2 .tg-ct-0b').removeAttr('style');
+			}
+			break;
+		
 		case 'page3' :
 			maxHeight = jQuery('#content3 .tg-ct-titre').outerHeight(true);
-			surplusH = 35;
 			maxHeight += surplusH;
 			
 			maxHeightct2 = 0;
@@ -350,7 +380,7 @@ function resizeImg(type){
 		case 'page4' : 
 			himagefond4 = h - parseInt(jQuery('.tg-ct-txt').outerHeight(false));
 			himagefond4 -= parseInt(jQuery('#content4 .tg-ct-img').css('marginTop'));
-			himagefond4 -= 35;
+			himagefond4 -= surplusH;
 			
 			maxHeight = parseInt(jQuery('#imagefond4').css('maxHeight'));
 			if(himagefond4 > maxHeight){
@@ -460,22 +490,9 @@ jQuery(function(t){
 			}
 		}
 		if(jQuery(window).width() >= 768){		
-			// Page 2
-			if(h > 900){
-				maxHeight1 = jQuery('#content1 .tg-ct-0b').outerHeight(false);
-				maxHeight2 = jQuery('#content2 .tg-ct-0b').outerHeight(false);
-				surplusH = 35;
-				titremarge1 = parseInt(jQuery('#content1 h1').css('marginTop'));
-				titremarge2 = parseInt(jQuery('#content2 h1').css('marginTop'));
-				marge1 = Math.floor((h - maxHeight1 - surplusH) / 2);
-				marge2 = Math.floor((h - maxHeight2 - surplusH) / 2);
-				
-				jQuery('#content1 .tg-ct-0b').css({'marginBottom' : marge1 + titremarge1, 'marginTop' : marge1 - titremarge1});
-				jQuery('#content2 .tg-ct-0b').css({'marginBottom' : marge2 + titremarge2, 'marginTop' : marge2 - titremarge2});
-			}else{
-				jQuery('#content1 .tg-ct-0b').removeAttr('style');
-				jQuery('#content2 .tg-ct-0b').removeAttr('style');
-			}
+			// Page 1,2
+			resizeImg('page1');
+			resizeImg('page2');
 			
 			// Page 3,4
 			resizeImg('page3');
