@@ -1,0 +1,288 @@
+	<div id="content1" class="page-wrap page-id-55">
+		<div class="panel-grid clearfix tg-item tg-animate">
+			<div id="tg-ct-0" class="full-container clearfix" data-stretch-type="full-stretched" style="background-image: url('{{ .Params.img_fond_section1 }}');background-size:auto;">
+				<div class="tg-ct-0">
+					<div class="row">
+						<img src="{{ .Params.img_fond_section1 }}" class="tg_track" alt="">
+					</div>
+					<div class="col-sm-4 col-xs-offset-5">
+						<div class="col-sm-10 col-xs-offset-1">
+							<h1 class="tg-titre1 tg-item tg-animate tg-animate2" data-animate="fadeInUp" data-cache="fadeOutDown">{{ .Params.titre_section_1 }}</h1>
+							<p class="tg-text-slide tg-item tg-animate tg-animate2 animated2" data-animate="fadeInUp" data-cache="fadeOutDown">{{ .Params.texte_section_1 | safeHTML }}</p>
+						</div>
+					</div>
+					<a href="#tg-ct-5" title="" class="tg-fleche-v center-block animated2 slideInDown"></a>
+				</div>
+			</div>
+		</div>
+		<div class="container content-wrapper">
+			<div class="row">
+				<div id="primary" class="fp-content-area">
+					<main id="main" class="site-main" role="main">
+						<div class="entry-content">
+							<div class="panel-grid clearfix">
+								<div id="tg-ct-5" class="full-container clearfix" data-stretch-type="full">
+									<h2 class="tg-titre2 text-center tg-item tg-animate" data-animate="fadeInUp" data-cache="fadeOutDown">{{ .Params.titre_section_2 }}</h2>
+									<div class="col-sm-8 col-xs-12 col-xs-offset-2">
+										{{ range .Params.Icones.item }}
+											<figure class="tg-activite col-sm-3 text-center">
+												<div id="{{ .id }}" class="center-block tg-activite-imgs" data-svg="{{ .img }}"></div>
+												<figcaption class="tg-activite-desc"><h5>{{ .texte }}</h5></figcaption>
+											</figure>
+										{{ end }}
+									</div>
+								</div>
+							</div>
+							
+							<div class="panel-grid clearfix">
+								<div id="tg-ct-6" class="full-container clearfix" data-stretch-type="full">
+									<h2 class="tg-titre2 text-center tg-item tg-animate" data-animate="fadeInUp" data-cache="fadeOutDown">{{ .Params.titre_section_3 }}</h2>
+									<p class="tg-text-3 text-center">{{ .Params.texte_section_3 | safeHTML }}</p>
+									<div class="clearfix tg-maitrise-flotte">
+										<div class="col-sm-4 col-xs-12">
+											<p class="tg-text-3 tg-text-3c text-right">{{ .Params.texte_section_3a | safeHTML }}</p>
+										</div>
+										<div class="col-sm-4 col-xs-12 tg-item tg-animate">
+											<p class="tg-text-3 tg-text-3b text-center">{{ .Params.texte_section_3b | safeHTML }}</p>
+											<div class="clearfix" style="position:relative">
+												<div class="col-sm-10 col-xs-offset-1">
+													<div class="tg-transition2 tg-maitrise-flotte1"></div><div class="tg-transition2 tg-maitrise-flotte2"></div>
+													<img src="{{ .Params.image_section_3 }}" alt="" class="img-responsive center-block" style="position:relative">
+												</div>
+											</div>
+										</div>
+										<div class="col-sm-4 col-xs-12">
+											<p class="tg-text-3 tg-text-3d text-left">{{ .Params.texte_section_3c | safeHTML }}</p>
+										</div>
+									</div>
+								</div>
+							</div>
+								
+							<div class="panel-grid clearfix">
+								<div id="tg-ct-7" class="full-container clearfix" data-stretch-type="full">
+									<div class="clearfix tg-item tg-animate">
+										<div class="col-sm-5">
+											<div class="tg-interface-ergonomique tg-interface-ergonomique1"></div>
+											<div class="tg-interface-ergonomique tg-interface-ergonomique2 tg-transition2"></div>
+											<img src="{{ .Params.image_section_4 }}" alt="" class="img-responsive center-block" style="visibility: hidden; opacity: 0;">
+										</div>
+										<div class="col-sm-5">
+											<h2 class="tg-titre2 tg-item tg-animate" data-animate="fadeInUp" data-cache="fadeOutDown">{{ .Params.titre_section_4 }}</h2>
+											<p class="tg-text-4">{{ .Params.texte_section_4a | safeHTML }}</p>
+											<p class="tg-text-5">{{ .Params.texte_section_4b | safeHTML }}</p>
+										</div>
+									</div>
+									<div id="tgLogos">
+										<div class="container clearfix">
+											<div class="col-sm-5 col-xs-offset-5">
+												{{ range .Params.Icones2.item }}
+													<img src="{{ .img }}" alt="" class="tg-logos" />
+												{{ end }}
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+								
+							<div class="panel-grid clearfix">
+								<div id="tg-ct-8" class="full-container clearfix text-center" data-stretch-type="full">
+									<h2 class="tg-titre2 tg-item tg-animate" data-animate="fadeInUp" data-cache="fadeOutDown">{{ .Params.titre_section_5 }}</h2>
+									<p class="tg-text-6">{{ .Params.texte_section_5 | safeHTML }}</p>
+									
+									<a class="btn btn-primary tg-alert-rapport" href="#" data-content="tgAlert">{{ .Params.section_5_alert_titre }}</a>
+									<div class="clearfix collapse" id="tgAlert">
+										<div class="col-sm-4 tg-application text-left">
+											<h4 class="tg-titre4"><i class="tg-icone"></i>{{ .Params.section_5_alert_titre1 }}</h4>
+											<p class="tg-text-3 tg-text-3e">{{ .Params.section_5_alert_texte1 | safeHTML }}</p>
+										</div>
+										<div class="col-sm-4 tg-mail text-left">
+											<h4 class="tg-titre4"><i class="tg-icone"></i>{{ .Params.section_5_alert_titre2 }}</h4>
+											<p class="tg-text-3 tg-text-3e">{{ .Params.section_5_alert_texte2 | safeHTML }}</p>
+										</div>
+										<div class="col-sm-4 tg-sms text-left">
+											<h4 class="tg-titre4"><i class="tg-icone"></i>{{ .Params.section_5_alert_titre3 }}</h4>
+											<p class="tg-text-3 tg-text-3e">{{ .Params.section_5_alert_texte3 | safeHTML }}</p>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+									
+									<a class="btn btn-primary tg-alert-rapport" href="#" data-content="tgRapport">{{ .Params.section_5_rapport_titre }}</a>
+									<div class="clearfix collapse" id="tgRapport">
+										<div class="clerafix">
+											<div class="col-sm-4 col-xs-offset-4 tg-graphique text-left">
+												<h4 class="tg-titre4"><i class="tg-icone"></i>{{ .Params.section_5_rapport_titre1 }}</h4>
+												<p class="tg-text-3 tg-text-3e">{{ .Params.section_5_rapport_texte1 | safeHTML }}</p>
+											</div>
+										</div>
+										<div class="clearfix">
+											<div class="col-sm-4 col-xs-offset-4 tg-excel text-left">
+												<h4 class="tg-titre4"><i class="tg-icone"></i>{{ .Params.section_5_rapport_titre2 }}</h4>
+												<p class="tg-text-3 tg-text-3e">{{ .Params.section_5_rapport_texte2 | safeHTML }}</p>
+											</div>
+										</div>
+									</div>
+									<div class="clearfix"></div>
+									<div class="clearfix tg-gestion-parc">
+										<img src="{{ .Params.image_section_5 }}" alt="" class="img-responsive center-block">
+										<div id="tgGestionParc">
+											<h3 class="tg-titre5 text-center">{{ .Params.titre_sextion_5b | safeHTML }}</h3>
+										</div>
+									</div>
+								</div>
+							</div>
+								
+							<div class="panel-grid clearfix">
+								<div id="tg-ct-9" class="full-container clearfix" data-stretch-type="full">
+									<h2 class="tg-titre2 text-center tg-item tg-animate" data-animate="fadeInUp" data-cache="fadeOutDown">{{ .Params.titre_section_6 }}</h2>
+									<div class="clearfix tg-productivite">
+										<div class="col-sm-7">
+											<div class="col-sm-10 col-xs-offset-1">
+												<img src="{{ .Params.section_6_image1 }}" class="img-responsive center-block tg-item tg-animate" data-animate="fadeIn" data-cache="fadeOut" alt="" >
+											</div>
+										</div>
+										<div class="col-sm-4">
+											<h4 class="tg-titre6">{{ .Params.section_6_titre1 }}</h4>
+											<p class="tg-text-7 col-sm-10 col-xs-12">{{ .Params.section_6_texte1 | safeHTML }}</p>
+										</div>
+									</div>
+									<div class="clearfix tg-exploitation">
+										<div class="col-sm-7 clearfix">
+											<h4 class="tg-titre6">{{ .Params.section_6_titre2 }}</h4>
+											<p class="tg-text-7 col-sm-10 col-xs-12">{{ .Params.section_6_texte2 | safeHTML }}</p>
+										</div>
+										<div class="col-sm-5">
+											<img src="{{ .Params.section_6_image2 }}" class="img-responsive center-block tg-item tg-animate" data-animate="fadeIn" data-cache="fadeOut" alt="" >
+										</div>
+									</div>
+									<div class="clearfix tg-gestion">
+										<div class="col-sm-7">
+											<div class="col-sm-10 col-xs-offset-1">
+												<img src="{{ .Params.section_6_image3 }}" class="img-responsive center-block tg-item tg-animate" data-animate="fadeIn" data-cache="fadeOut" alt="" >
+											</div>
+										</div>
+										<div class="col-sm-5">
+											<h4 class="tg-titre6">{{ .Params.section_6_titre3 }}</h4>
+											<p class="tg-text-7 col-sm-10 col-xs-12">{{ .Params.section_6_texte3 | safeHTML }}</p>
+										</div>
+									</div>
+								</div>
+							</div>
+								
+							<div class="panel-grid clearfix">
+								<div id="tg-ct-10" class="full-container clearfix" data-stretch-type="full">
+									<h2 class="tg-titre2 text-center tg-item tg-animate" data-animate="fadeInUp" data-cache="fadeOutDown">{{ .Params.titre_section_7 }}</h2>
+									<div class="tg-abonnement-tbl1">
+										<table class="table" style="width: 100%;">
+											<tbody>
+												<tr>
+													<th style="text-align: center;" colspan="2">{{ .Params.section_7_table_1_titre | safeHTML }}</th>
+												</tr>
+												{{ range .Params.table1.ligne }}
+													<tr>
+														<td style="text-align: left;">{{ .gauche }}</td>
+														<td style="text-align: left;">{{ .droite }}</td>
+													</tr>
+												{{ end }}
+											</tbody>
+										</table>
+									</div>
+									<div class="tg-abonnement-tbl2">
+										<table class="table text-center clearfix" style="margin: auto; width: 50%;">
+											<tbody>
+												<tr>
+													<th>{{ .Params.section_7_table_2_titre }}</th>
+												</tr>
+												{{ range .Params.table2.ligne }}
+													<tr>
+														<td>{{ .titre }} <img class="" src="/images/tg-icon-v.png" alt="" /><p>{{ .description}}</p></td>
+													</tr>
+												{{ end }}
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+								
+							<div class="panel-grid clearfix">
+								<div id="tg-ct-11" class="full-container clearfix" data-stretch-type="full-stretched">
+									<div class="tg-ct-11" style="background-image:url('/images/satellite-fond.jpg')">
+										<img src="/images/satellite-fond.jpg" alt="" class="center-block img-responsive">
+									</div>
+								</div>
+							</div>
+								
+							<div class="panel-grid clearfix">
+								<div id="tg-ct-12" class="full-container clearfix" data-stretch-type="full">
+									<p class="tg-titre7 text-center">{{ .Params.titrep_section_8 }}</p>
+									<h2 class="tg-titre2 text-center tg-item tg-animate" data-animate="fadeInUp" data-cache="fadeOutDown">{{ .Params.titre_section_8 }}</h2>
+									<p class="tg-text-3 tg-text-3e text-center">{{ .Params.texte_section_8 | safeHTML }}</p>
+									<div class="clearfix tg-tag-os">
+										<div class="col-sm-10 col-xs-offset-1">
+											<img src="{{ .Params.section_8_image1 }}" alt="" class="img-responsive center-block tg-item tg-animate" data-animate="fadeIn" data-cache="fadeOut">
+										</div>
+									</div>						
+									<h2 class="tg-titre2 text-center tg-item tg-animate" data-animate="fadeInUp" data-cache="fadeOutDown">{{ .Params.section_8_titre }}</h2>
+									<p class="tg-text-3 tg-text-3e text-center">{{ .Params.section_8_texte | safeHTML }}</p>
+									<div class="clearfix tg-tag-os-texte">
+										<div class="col-sm-6 tg-tagos-alert">
+											<h4 class="tg-titre4"><i class="tg-icone"></i>{{ .Params.section_8_alert_titre }}</h4>
+											<p class="tg-text-3 tg-text-3e">{{ .Params.section_8_alert_texte | safeHTML }}</p>
+										</div>
+										<div class="col-sm-6 tg-tagos-rapport">
+											<h4 class="tg-titre4"><i class="tg-icone"></i>{{ .Params.section_8_rapport_titre }}</h4>
+											<p class="tg-text-3 tg-text-3e">{{ .Params.section_8_rapport_texte | safeHTML }}</p>
+										</div>
+									</div>
+									<div class="clearfix tg-tag-os">
+										<div class="col-sm-10 col-xs-offset-1">
+											<img src="{{ .Params.section_8_image2 }}" alt="" class="img-responsive center-block tg-item tg-animate" data-animate="fadeIn" data-cache="fadeOut">
+										</div>
+									</div>						
+									<h2 class="tg-titre2 text-center tg-item tg-animate" data-animate="fadeInUp" data-cache="fadeOutDown">{{ .Params.section_9_titre }}</h2>
+									<p class="tg-text-3 tg-text-3e text-center">{{ .Params.section_9_texte | safeHTML }}</p>
+									<div class="clearfix">
+										<div class="col-sm-4 col-xs-offset-4">
+											<div class="col-sm-10 col-xs-offset-1">
+												<p class="tg-text-6">{{ .Params.section_9_titrep }}</p>
+											</div>
+										</div>
+									</div>
+									<div class="clearfix tg-tag-os-block-text">
+										<div class="col-sm-4">
+											<div class="col-sm-10 col-xs-offset-1">
+												<p class="tg-text-8">{{ .Params.section_9_texte1  | safeHTML }}</p>
+											</div>
+										</div>
+										<div class="col-sm-4">
+											<div class="col-sm-10 col-xs-offset-1">
+												<p class="tg-text-8">{{ .Params.section_9_texte2  | safeHTML }}</p>
+											</div>
+										</div>
+										<div class="col-sm-4">
+											<div class="col-sm-10 col-xs-offset-1">
+												<p class="tg-text-8">{{ .Params.section_9_texte3  | safeHTML }}</p>
+											</div>
+										</div>
+									</div>
+									<div class="clearfix tg-tag-os-block-text">
+										<div class="col-sm-4 col-xs-offset-4 tg-tag-os-block4">
+											<div class="col-sm-10 col-xs-offset-1">
+												<h4 class="tg-text-6">{{ .Params.section_9_titre4 }}</h4>
+												<p class="tg-text-8">{{ .Params.section_9_texte4  | safeHTML }}</p>
+											</div>
+										</div>
+									</div>
+									<div class="clearfix tg-tag-os-block-text">
+										<div class="col-sm-4 col-xs-offset-4 text-center">
+											<a href="{{ .Params.telechargement_lien }}" class="tg-bouton center-block" titlte="" target="_blank">{{ .Params.telechargement_titre }}</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</main>
+				</div>
+			</div>
+		</div>
+	</div>
+	

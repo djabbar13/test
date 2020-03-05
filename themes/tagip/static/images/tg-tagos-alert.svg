@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="45px" height="45px" viewBox="0 0 45 45" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Alerte</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="TAG-IP-ACCUEIL" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02-Track" transform="translate(-43.000000, -8444.000000)">
+            <g id="Alerte" transform="translate(44.000000, 8444.705882)">
+                <text id="!" font-family="MyriadSetPro-Text, Myriad Set Pro" font-size="33" font-weight="normal" fill="#FF7D10">
+                    <tspan x="17.5" y="31.5">!</tspan>
+                </text>
+                <circle id="Oval-5" stroke="#FF7D10" cx="21.5" cy="22" r="21.5"/>
+            </g>
+        </g>
+    </g>
+</svg>

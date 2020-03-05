@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+
+    <body class="page">
+		<div class="hfeed site" id="page">
+			{{ partial "header.html" . }}
+			{{ block "main" . }}{{ end }}
+		</div>
+
+		{{ block "footer" . }}
+			{{ partial "footer.html" . }}
+		{{ end }}
+
+        {{ partial "javascript.html" . }}
+    </body>
+</html>

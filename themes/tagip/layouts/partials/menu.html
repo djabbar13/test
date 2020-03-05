@@ -1,0 +1,10 @@
+<nav id="tgmainnav" class="mainnav" role="navigation">
+    <div class="menu-principal-container tg-transition clearfix" id="tg_mainnav">
+		<ul id="menu-principal" class="tg-transition">
+			{{- $currentPage := . -}}
+			{{ range .Site.Menus.main.ByWeight -}}
+				<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="{{ .URL | absLangURL }}" title="">{{ .Name }}</a></li>
+			{{- end }}
+		</ul>
+	</div>
+</nav>

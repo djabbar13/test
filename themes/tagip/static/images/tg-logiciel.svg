@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>application</title>
+    <desc>Created with Sketch.</desc>
+    <defs/>
+    <g id="TAG-IP-ACCUEIL" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="03-Forms" transform="translate(-681.000000, -3212.000000)" fill="#FF7D10">
+            <g id="application" transform="translate(681.000000, 3212.000000)">
+                <path d="M0,12.8571429 L12.8571429,12.8571429 L12.8571429,0 L0,0 L0,12.8571429 Z M18.5714286,50 L31.4285714,50 L31.4285714,37.1428571 L18.5714286,37.1428571 L18.5714286,50 Z M0,50 L12.8571429,50 L12.8571429,37.1428571 L0,37.1428571 L0,50 Z M0,31.4285714 L12.8571429,31.4285714 L12.8571429,18.5714286 L0,18.5714286 L0,31.4285714 Z M18.5714286,31.4285714 L31.4285714,31.4285714 L31.4285714,18.5714286 L18.5714286,18.5714286 L18.5714286,31.4285714 Z M37.1428571,12.8571429 L50,12.8571429 L50,0 L37.1428571,0 L37.1428571,12.8571429 Z M18.5714286,12.8571429 L31.4285714,12.8571429 L31.4285714,0 L18.5714286,0 L18.5714286,12.8571429 Z M37.1428571,31.4285714 L50,31.4285714 L50,18.5714286 L37.1428571,18.5714286 L37.1428571,31.4285714 Z M37.1428571,50 L50,50 L50,37.1428571 L37.1428571,37.1428571 L37.1428571,50 Z" id="show-apps-button"/>
+            </g>
+        </g>
+    </g>
+</svg>

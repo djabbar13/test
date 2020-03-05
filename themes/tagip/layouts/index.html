@@ -1,0 +1,101 @@
+{{ define "main" }}
+    <div id="content1" class="page-wrap">
+		<div class="panel-grid clearfix tg-item tg-animate">
+			<div class="full-container clearfix" id="tg-ct-0" style="background-image: url('/images/slide-1.jpg')" data-stretch-type="full-stretched" >
+				<div class="tg-ct-0">
+					{{ if .Params.titre_section_1 -}}
+					<h1 class="tg-titre1 text-center tg-item tg-animate tg-animate2" data-animate="fadeInUp" data-cache="fadeOutDown">{{ .Params.titre_section_1 | safeHTML }}</h1>
+					{{- end }}
+					
+					{{ if .Params.texte_section_1 -}}
+					<p class="tg-text-slide text-center tg-item tg-animate tg-animate2 animated2" data-animate="fadeInUp" data-cache="fadeOutDown">{{ .Params.texte_section_1 | safeHTML }}</p>
+					{{- end }}
+				</div>
+			</div>
+		</div>
+		
+		<div class="container content-wrapper">
+			<div class="row">
+				<div id="primary" class="fp-content-area">
+					<main id="main" class="site-main" role="main">
+						<div class="entry-content">
+							<div class="panel-grid clearfix tg-ct-1">
+								<div id="tg-ct-1" class="full-container background-full-2 clearfix" data-stretch-type="full">
+									<div class="tg-ct-1a tg-item tg-animate"></div>
+									<div class="tg-ct-1b tg-item tg-animate"></div>
+									{{ if .Params.titre_section_2 -}}
+									<h2 class="tg-titre2 text-center tg-item tg-animate tg-animate2" data-animate="fadeInUp" data-cache="fadeOutDown">{{ .Params.titre_section_2 | safeHTML }}</h2>
+									{{- end }}
+									
+									{{ if .Params.texte_section_2 -}}
+									<p class="text-center">{{ .Params.texte_section_2 | safeHTML }}</p>
+									{{- end }}
+									
+									<div class="clearfix">
+										<div class="tg-maitrise-fond col-sm-6 col-xs-12 col-xs-offset-3">
+											{{ if .Params.image_section_2 }}
+											<img src="{{ .Params.image_section_2 }}" alt="" class="img-responsive center-block tg-item tg-animate tg-transition2" data-animate="fadeIn" data-cache="fadeOut">
+											{{ end }}
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="panel-grid clearfix">
+								<div id="tg-ct-2" class="panel-row clearfix">
+									{{ if .Params.texte_section_3 -}}
+									<p class="text-center">{{ .Params.texte_section_3 | safeHTML }}</p>
+									{{- end}}
+									<a href="{{ .Params.lien_page_track }}" title="" class="center-block col-sm-3 tg-bouton tg-bouton1 text-center tg-transition">{{ .Params.titre_page_track }}</a>
+									<div class="tg-client clearfix">
+										<div class="col-sm-6 col-xs-12 col-xs-offset-1">
+											<img src="{{ .Params.image_section_3 }}" alt="" class="img-responsive center-block tg-item tg-animate" data-animate="fadeIn" data-cache="fadeOut">
+										</div>
+										<div class="col-sm-5 pull-right text-left">
+											<h3 class="tg-titre3 tg-titre3a roll-counter">
+												<span class="numb-count" data-waypoint-active="yes" data-speed="3000" data-to="{{ .Params.countto_vehicule_section_3 }}"></span> {{ .Params.text_vehicule_section_3 }}<br /><span class="numb-count" data-waypoint-active="yes" data-speed="3000" data-to="{{ .Params.countto_client_section_3 }}"></span> {{ .Params.text_client_section_3 }} <span class="tg-plus">&nbsp;</span>
+											</h3>
+											<p id="tg_societe_liste">{{ .Params.societe_liste | safeHTML }}</p>
+											<p class="tg-text-1">{{ .Params.texte2_section_3 | safeHTML }}</p>
+										</div>
+									</div>
+									<div class="clearfix tg-item tg-animate">
+										<div class="tg-accueil-carre center-block">
+											<div class="tg-accueil-carre-item1 tg-transition2"></div>
+											<div class="tg-accueil-carre-item2"></div>
+											<div class="tg-accueil-carre-item3 tg-transition2"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							
+							<div class="panel-grid clearfix">
+								<div id="tg-ct-3" class="panel-row clearfix">
+									<h2 class="tg-titre2 text-center tg-item tg-animate tg-animate2" data-animate="fadeInUp" data-cache="fadeOutDown">{{ .Params.titre_section_4 | safeHTML }}</h2>
+									<div class="col-sm-4 col-xs-offset-4" style="padding:0">
+										<p class="text-left">{{ .Params.texte_a_section_4 | safeHTML }}</p>
+									</div>
+								</div>
+							</div>
+							
+							<div class="panel-grid clearfix">
+								<div id="tg-ct-4" class="full-container clearfix" data-stretch-type="full">
+									<div class="clearfix">
+										<div class="col-sm-3 col-xs-offset-1 col-xs-12" style="padding:0">
+											<p class="tg-text-2">{{ .Params.texte_b_section_4 | safeHTML }}</p>
+											<p class="tg-text-2">{{ .Params.texte_c_section_4 | safeHTML }}</p>
+											<a href="{{ .Params.lien_page_forms }}" title="" class="center-block tg-bouton tg-bouton2 text-center tg-transition">{{ .Params.titre_page_forms }}</a>
+										</div>
+										<div class="col-sm-8 pull-right col-xs-12" style="padding-right:0">
+											<img src="{{ .Params.image_section_4 }}" alt="" class="img-responsive pull-right tg-item tg-animate" data-animate="fadeIn" data-cache="fadeOut" />
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</main>
+				</div>
+			</div>
+		</div>
+	</div>
+{{ end }}

@@ -1,0 +1,5 @@
+baseURL = "https://www.tag-ip.com/"
+languageCode = "fr-fr"
+title = "Tag-Ip theme"
+MetaDataFormat = "toml"
+theme = "tagip"

@@ -1,0 +1,172 @@
+baseURL = "https://www.tag-ip.com"
+title   = "Tag Ip"
+MetaDataFormat = "toml"
+
+DefaultContentLanguage = "fr"
+
+#theme = "hugo-hello-friend-ng"
+#theme = "zoo"
+theme = "tagip"
+
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+rssLimit  = 0
+copyright = "MIT"
+
+# googleAnalytics = ""
+# disqusShortname = ""
+
+archetypeDir = "archetypes"
+contentDir   = "content"
+dataDir      = "data"
+layoutDir    = "layouts"
+publishDir   = "public"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpored = false
+canonifyURLs = true
+
+enableRobotsTXT = true
+enableGitInfo   = false
+enableEmoji     = true
+enableMissingTranslationPlaceholders = false
+disableRSS     = false
+disableSitemap = false
+disable404     = false
+disableHugoGeneratorInject = false
+
+[permalinks]
+  posts = "/posts/:year/:month/:title/"
+
+[author]
+  name = ""
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  description = ""
+  keywords = ""
+  images = [""]
+
+  homeSubtitle = ""
+
+  # Prefix of link to the git commit detail page. GitInfo must be enabled.
+  # gitUrl = ""
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Integrate Javascript files or stylesheets by adding the url to the external assets or by
+  # linking local files with their path relative to the static folder, e.g. "css/styles.css"
+  customCSS = []
+  customJS  = []
+
+  # Toggle this option need to rebuild SCSS, requires extended version of Hugo
+  justifyContent = false  # Set "text-align: justify" to .content.
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+  themeColor = "#252627"
+
+  # Colors for favicons
+  [params.favicon.color]
+    mask = "#252627"
+    msapplication = "#252627"
+    theme = "#252627"
+
+  [params.logo]
+    logoText     = "Tag Ip"
+    logoHomeLink = "/"
+	logoImage	 = "/images/logo.svg"
+
+  # Social icons
+  [[params.social]]
+    name = "facebook"
+    url  = "https://www.facebook.com/tagipgeolocalisation"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/company-beta/17981690/"
+
+	[params.footer]
+		[params.author]
+			name = "www.tag-ip.com"
+		
+		[params.footer.sidebar1]
+			[[params.footers.sidebar1.item]]
+				titre = "Annuaire.mg"
+				lien = "https://annuaire.mg"
+				class = "tg-annuaire tg-annuaire-1"
+				separateur = false
+			[[params.footers.sidebar1.item]]
+				separateur = true
+			[[params.footers.sidebar1.item]]
+				titre = "Stileex webzine"
+				lien = "https://stileex.xyz/"
+				class = "tg-annuaire tg-annuaire-2"
+				separateur = false
+			
+		[params.footers.sidebar2]
+			[[params.footers.sidebar2.item]]
+				titre = ""
+				lien = "https://www.facebook.com/tagipgeolocalisation"
+				class_parent = "tg-fb"
+				class = "fa fa-facebook-official"
+			[[params.footers.sidebar2.item]]
+				titre = ""
+				lien = "https://www.linkedin.com/company-beta/17981690/"
+				class_parent = "tg-linkedin"
+				class = "fa fa-linkedin-square"
+			
+		[params.footers.sidebar3]
+			text = "© TAG-IP - 2017 Designed by Magellan Digital"
+
+[languages]
+  [languages.fr]
+    subtitle  = ""
+    weight    = 1
+    copyright = '<a href="www.tag-ip.com" target="_blank" rel="noopener">Tag-Ip</a>'
+
+[menu]
+	[[menu.main]]
+		identifier = "home"
+		name       = "Accueil"
+		url        = "/"
+		weight	   = 1
+	[[menu.main]]
+		identifier = "track"
+		name       = "Track"
+		url        = "track/"
+		weight	   = 2
+	[[menu.main]]
+		identifier = "forms"
+		name       = "Forms"
+		url        = "forms/"
+		weight	   = 3
+	[[menu.main]]
+		identifier = "smart"
+		name       = "Smart track"
+		url        = "smart/"
+		weight	   = 4
+	[[menu.main]]
+		identifier = "contact"
+		name       = "Contact"
+		url        = "contact/"
+		weight	   = 5
+	

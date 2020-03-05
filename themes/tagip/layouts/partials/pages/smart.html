@@ -1,0 +1,174 @@
+	<!-- Page 1 -->
+	<div id="content1" class="content1 tg-content page-wrap page-id-55b">
+		<div class="panel-grid clearfix tg-item tg-animate">
+			<div class="container">
+				<div class="tg-ct-0b">
+					<div class="col-sm-5 col-xs-offset-6">
+						<div class="col-sm-10 col-xs-offset-1 text-center no-padding-x">
+							<h1 class="tg-item tg-animate tg-animate2" data-animate="fadeIn" data-cache="fadeOut">{{ .Params.content1_titre_principal }}</h1>
+							<h3 class="tg-item tg-animate tg-animate2" data-animate="fadeIn" data-cache="fadeOut">{{ .Params.content1_titre }}</h3>
+							<p class="tg-item tg-animate tg-animate2 animated2" data-animate="fadeInUp" data-cache="fadeOutDown">{{ .Params.content1_paragraphe1 | safeHTML  }}</p>
+							
+							<div class="tg-bloc-noir row">
+								<video width="100%" height="100%" controls>
+									<source src="/videos/15SecSmartTrack.mp4" type="video/mp4">
+								</video>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Page 2 -->
+	<div id="content2" class="page-wrap tg-content page-id-55b" style="display: none;">
+		<div class="panel-grid clearfix tg-item tg-animate">
+			<div class="container">
+				<div class="tg-ct-0b">
+					<div class="col-sm-5 col-xs-offset-7">
+						<div class="col-sm-11 col-xs-offset-1">
+							<h1 class="tg-item tg-animate tg-animate2 text-center" data-animate="fadeIn" data-cache="fadeOut">{{ .Params.content2_titre_principal }}</h1>
+							<p class="tg-item tg-animate tg-animate2 animated2 tg-lg-top text-center" data-animate="fadeInUp" data-cache="fadeOutDown">{{ .Params.content2_paragraphe1 | safeHTML  }}</p>
+							<div class="col-sm-12 clearfix text-center tg-ct-img">
+								<div id="imagefond2"></div>
+							</div>
+							<p class="tg-item tg-animate tg-animate2 animated2 text-center" data-animate="fadeInUp" data-cache="fadeOutDown">{{ .Params.content2_paragraphe2 | safeHTML  }}</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Page 3 -->
+	<div id="content3" class="page-wrap tg-content page-id-55b" style="display: none;">
+		<div class="panel-grid clearfix tg-item">
+			<div class="container">
+				<div class="col-sm-12 clearfix tg-ct-titre" style="margin-top:100px; margin-bottom:40px">
+					<h1 class="text-center tg-item tg-animate tg-animate2" data-animate="fadeIn" data-cache="fadeOut">{{ .Params.content3_titre_principal }}</h1>
+				</div>
+				<div class="col-sm-12 clearfix tg-ct-txt2">
+					<div class="col-sm-4 tg-avantage tg-avantage-1">
+						<div class="tg-flex1">
+							<div class="tg-content2">
+								<h3 class="tg-item tg-animate tg-animate2" data-animate="fadeIn" data-cache="fadeOut">{{ .Params.content3_titre }}</h3>
+								{{ .Params.content3_paragraphe1 | safeHTML  }}
+							</div>
+							<div class="imagefond3"><div id="imagefond3a"></div></div>
+						</div>
+					</div>
+					
+					<div class="col-sm-4 tg-avantage tg-avantage-2">
+						<div class="tg-flex1">
+							<div class="tg-content2">
+								<h3 class="tg-item tg-animate tg-animate2" data-animate="fadeIn" data-cache="fadeOut">{{ .Params.content3_titre1 }}</h3>
+								{{ .Params.content3_paragraphe2 | safeHTML  }}
+							</div>
+							<div class="imagefond3"><div id="imagefond3b"></div></div>
+						</div>
+					</div>
+					
+					<div class="col-sm-4 tg-avantage tg-avantage-3">
+						<div class="tg-flex1">
+							<div class="tg-content2">
+								<h3 class="tg-item tg-animate tg-animate2" data-animate="fadeIn" data-cache="fadeOut">{{ .Params.content3_titre2 }}</h3>
+								{{ .Params.content3_paragraphe3 | safeHTML  }}
+							</div>
+							<div class="imagefond3"><div id="imagefond3c"></div></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- Page 4 -->
+	<div id="content4" class="page-wrap tg-content page-id-55b" style="display: none;">
+		<div class="panel-grid clearfix tg-item">
+			<div class="container">
+				<div class="col-sm-12 clearfix text-center tg-ct-img" style="margin-top: 90px;">
+					<div id="imagefond4"></div>
+				</div>
+				<div class="col-sm-12 tg-ct-txt clearfix">
+					<div class="col-sm-12">
+						<p class="text-center tg-tarif tg-item tg-animate tg-animate2" data-animate="fadeIn" data-cache="fadeOut">{{ .Params.content4_prix | safeHTML }}</p>
+					</div>
+					<div class="col-sm-12">
+						<h1 class="text-center tg-item tg-animate tg-animate2" data-animate="fadeIn" data-cache="fadeOut">{{ .Params.content4_titre_principal }}</h1>
+					</div>
+					<div class="col-sm-3 tg-avantage2">
+						{{ .Params.content4_paragraphe1 | safeHTML  }}
+					</div>
+					
+					<div class="col-sm-3 tg-avantage2">
+						{{ .Params.content4_paragraphe2 | safeHTML  }}
+					</div>
+					
+					<div class="col-sm-3 tg-avantage2">
+						{{ .Params.content4_paragraphe3 | safeHTML  }}
+					</div>
+					
+					<div class="col-sm-3 tg-avantage2">
+						{{ .Params.content4_paragraphe4 | safeHTML  }}
+					</div>
+					
+					<div class="col-sm-12">
+						<div class="col-xs-12 col-sm-6 text-right tg-font-vert tg-item tg-animate tg-animate2" data-animate="fadeIn" data-cache="fadeOut">{{ .Params.content4_tel | safeHTML }}</div>
+						<div class="col-xs-12 col-sm-6 tg-font-vert tg-item tg-animate tg-animate2" data-animate="fadeIn" data-cache="fadeOut">{{ .Params.content4_mail | safeHTML }}</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="tg-smart-menu">
+		<ul class="tg-list-menu list-unstyled">
+			<li class="list-item active">
+				<a id="tg-content1" href="#content1" data-classbody="index1">
+					<div>{{ .Params.content_onglet_1 }}</div>
+				</a>
+			</li>
+			<li class="list-item">
+				<a id="tg-content2" href="#content2" data-classbody="index2">
+					<div>{{ .Params.content_onglet_2 }}</div>
+				</a>
+			</li>
+			<li class="list-item">
+				<a id="tg-content3" href="#content3" data-classbody="index3">
+					<div>{{ .Params.content_onglet_3 }}</div>
+				</a>
+			</li>
+			<li class="list-item">
+				<a id="tg-content4" href="#content4" data-classbody="index4">
+					<div>{{ .Params.content_onglet_4 }}</div>
+				</a>
+			</li>
+		</ul>
+		<!--hr/-->
+	</div>
+	
+	<div class="tg-smart-menu-footer">
+		<ul class="tg-smart-menu-footer2 list-unstyled text-center">
+			<li class="list-item active">
+				<a class="tg-content-link" href="#content1">
+					{{ .Params.content_onglet_1 }}
+				</a>
+			</li>
+			<li class="list-item">
+				<a class="tg-content-link" href="#content2">
+					{{ .Params.content_onglet_2 }}
+				</a>
+			</li>
+			<li class="list-item">
+				<a class="tg-content-link" href="#content3">
+					{{ .Params.content_onglet_3 }}
+				</a>
+			</li>
+			<li class="list-item">
+				<a class="tg-content-link" href="#content4">
+					{{ .Params.content_onglet_4 }}
+				</a>
+			</li>
+		</ul>
+	</div>

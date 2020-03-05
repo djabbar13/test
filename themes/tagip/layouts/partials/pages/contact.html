@@ -1,0 +1,69 @@
+	<div id="content1" class="page-wrap">
+		<div class="container content-wrapper">
+			<div class="row">
+				<div id="primary" class="fp-content-area">
+					<main id="main" class="site-main" role="main">
+						<div class="entry-content">
+							<div class="panel-grid clearfix">
+								<div id="tg-ct-17" class="full-container clearfix" data-stretch-type="full">
+									<div class="col-sm-6 col-xs-offset-3">
+										<h1 class="tg-titre1">{{ .Params.title }}</h1>
+										<div class="clearfix">
+											<p class="tg-mail2 col-sm-6"><i class="tg-icone" style="background-image: url('{{ .Params.icone_mail }}');"></i> {{ .Params.texte_mail | safeHTML }}</p>
+											<p class="tg-tel col-sm-6"><i class="tg-icone"></i> {{ .Params.texte_phone | safeHTML }}</p>
+										</div>
+										<p class="tg-adresse">{{ .Params.texte_adresse | safeHTML }}</p>
+										
+										<h3 class="tg-titre2">{{ .Params.titre_h3 }}</h3>
+										<div role="form" class="wpcf7" id="wpcf7-f160-o1" lang="fr-FR" dir="ltr">
+										<div class="screen-reader-response"></div>
+											<form action="/contact" method="post" class="wpcf7-form" novalidate="novalidate">
+												<div style="display: none;">
+													<input type="hidden" name="_wpcf7" value="160" />
+													<input type="hidden" name="_wpcf7_version" value="4.6" />
+													<input type="hidden" name="_wpcf7_locale" value="fr_FR" />
+													<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f160-o1" />
+													<input type="hidden" name="_wpnonce" value="dc0d2c59ea" />
+												</div>
+												<div class="form-group">
+													<span class="wpcf7-form-control-wrap nom"><input type="text" name="nom" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" id="tg-ct-nom" aria-required="true" aria-invalid="false" placeholder="{{ .Params.placeholder_nom }}" /></span>
+												</div>
+												<div class="form-group">
+													<span class="wpcf7-form-control-wrap pnom"><input type="text" name="pnom" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required form-control" id="tg-ct-pnom" aria-required="true" aria-invalid="false" placeholder="{{ .Params.placeholder_prenom }}" /></span>
+												</div>
+												<div class="form-group">
+													<span class="wpcf7-form-control-wrap mail"><input type="email" name="mail" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email form-control" id="tg-ct-mail" aria-required="true" aria-invalid="false" placeholder="{{ .Params.placeholder_mail }}" /></span>
+												</div>
+												<div class="form-group">
+													<span class="wpcf7-form-control-wrap message"><textarea name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required form-control" id="tg-ct-msg" aria-required="true" aria-invalid="false" placeholder="{{ .Params.placeholder_msg }}"></textarea></span>
+												</div>
+												<div class="wpcf7-form-control-wrap">
+													<div data-sitekey="6LeyBVQUAAAAAFQF9nZ6cn01TI2jQcWPWbqxBNkf" data-theme="dark" class="wpcf7-form-control g-recaptcha wpcf7-recaptcha recaptcha" id="recaptcha"></div>
+													<noscript>
+														<div style="width: 302px; height: 422px;">
+															<div style="width: 302px; height: 422px; position: relative;">
+																<div style="width: 302px; height: 422px; position: absolute;">
+																	<iframe src="https://www.google.com/recaptcha/api/fallback?k=6LeyBVQUAAAAAFQF9nZ6cn01TI2jQcWPWbqxBNkf" frameborder="0" scrolling="no" style="width: 302px; height:422px; border-style: none;">
+																	</iframe>
+																</div>
+																<div style="width: 300px; height: 60px; border-style: none; bottom: 12px; left: 25px; margin: 0px; padding: 0px; right: 25px; background: #f9f9f9; border: 1px solid #c1c1c1; border-radius: 3px;">
+																	<textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;">
+																	</textarea>
+																</div>
+															</div>
+														</div>
+													</noscript>
+												</div>
+												<div class="form-group text-right"><input type="submit" value="{{ .Params.placeholder_btn }}" class="wpcf7-form-control wpcf7-submit tg-bouton" onCLick="return false;"/></div>
+												<div class="wpcf7-response-output wpcf7-display-none"></div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</main>
+				</div>
+			</div>
+		</div>
+	</div>

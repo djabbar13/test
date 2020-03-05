@@ -1,0 +1,19 @@
+baseURL = "https://www.tag-ip.com/"
+languageCode = "fr-FR"
+title = "Tag Ip : titre"
+name = "Tag-Ip"
+
+license = "MIT"
+licenselink = ""
+description = "Theme for Tag-Ip"
+tags = ["light", "minimal", "personal", "responsive", "simple", "technical"]
+features = ["blog"]
+min_version = 0.30
+
+[author]
+  name = "Paul & Lova"
+
+[original]
+  name = "hello-friend"
+  homepage = "https://github.com/panr/hugo-theme-hello-friend"
+  repo = "https://github.com/panr/hugo-theme-hello-friend"

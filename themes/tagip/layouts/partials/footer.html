@@ -1,0 +1,32 @@
+<a class="go-top show"><i class="fa fa-angle-up"></i></a>
+<footer id="colophon" class="site-footer" role="contentinfo">
+    <div class="site-info clearfix">
+		<div id="sidebar-footer" class="footer-widgets widget-area" role="complementary">
+			<div class="container">
+				<div class="sidebar-column col-md-12">
+					<aside id="tagip_annuaire-4" class="widget widget_tagip_annuaire">
+						{{ range .Site.Params.footers.sidebar1.item -}}
+							{{ if not .separateur -}}
+								<a href="{{ .lien }}" title="" class="{{ .class }}">{{ .titre }}</a>
+							{{- else -}}
+								<span class="tg-separateur">|</span>
+							{{- end }}
+						{{- end }}
+					</aside>
+					<aside id="tagip_rs-3" class="widget widget_tagip_rs">
+						{{ range .Site.Params.footers.sidebar2.item -}}
+							<a href="{{ .lien }}" title="{{ .titre }}" class="{{ .class_parent }}">
+								<i class="{{ .class }}"></i>
+							</a>
+						{{- end }}
+					</aside>
+					<aside id="text-2" class="widget widget_text">
+						{{ with .Site.Params.footers.sidebar3.text -}}
+							<div class="textwidget">{{ . }}</div>
+						{{- end }}	
+					</aside>
+				</div>
+			</div>
+		</div>
+    </div>
+</footer>

@@ -1,0 +1,424 @@
+/* Media Queries
+-------------------------------------------------------------- */
+
+/*.tg-avantage .tg-flex1{
+		display: flex !important;
+		height: inherit;
+		padding-bottom: 11em;
+		align-items: center !important;
+		-ms-flex-align: center !important;
+	}
+	.tg-avantage .tg-flex1 .tg-content2{ height: 100%; }
+}*/
+
+@media only screen and (max-device-width : 1440px) {
+	body.page2 p{ line-height: 25px; }
+	#content3 .container .col-sm-12.tg-ct-titre{ margin-top: 70px !important; }
+	#content3 .tg-avantage, #content3 .tg-avantage-2{ padding-left:15px; padding-right:15px; }
+	#content4 .container .col-sm-12.tg-ct-img{ margin-top: 40px !important; }
+	body.index2 #imagefond{ top: -136px; }
+}
+
+@media only screen and (max-device-width : 1199px) {
+	.page-id-55 #tg-ct-0{
+		background-size: 50% auto;
+	}
+	#tg-ct-0 .col-sm-4{ width: 41.6667% }
+	#tg-ct-0 .col-xs-offset-5{
+		margin-left: 50%;
+	}
+	#tgFormsGeeks{
+		height: 460px;
+		margin-bottom: 0;
+		padding-top: 60px;
+	}
+	#tgFormsGeeks .tg-text-3{ display: inline-block; }
+	
+	.tg-interface-ergonomique1{ background-size: contain; }
+	.tg-interface-ergonomique:after { background-size: 40% auto; }
+	.visible-section .tg-interface-ergonomique2,
+	.visible-section .tg-interface-ergonomique2:after{ background-size: 40% auto; }
+	.tg-interface-ergonomique2:after{ background-position: 33% 20%; }
+	.tg-interface-ergonomique2{ background-size: 40% auto; background-position: 32% 20%; }
+	
+	.tg-productivite .col-sm-4{ width: 41.6667%; }
+	.tg-productivite .tg-text-7.col-sm-10,
+	.tg-gestion .tg-text-7.col-sm-10{ width: 100%; }
+	
+	#tg-ct-1, .tg-productivite img{ margin-top: 70px; }
+	#tg-ct-10{ margin-top: 50px; }
+	#tg-ct-11, #tg-ct-12, #tg-ct-14, #tg-ct-15, #tg-ct-16, #tgAvantages{ margin-top: 0; }
+	#tg-ct-4, #tg-ct-11, #tg-ct-12, #tg-ct-14, #tg-ct-16, .tg-img-rond:last-child, .tgControl{ margin-bottom: 0; }
+	.tg-ct-11, .tg-ct-14, .tg-ct-16, .tg-bouton1{ margin-bottom: 100px; margin-top: 100px; }
+	#tgAvantages, .tg-productivite2, .tg-rentabilite, .tg-satisfaction-client, .tg-exploitation img, .tg-client{ margin-bottom: 100px; }
+	.tg-tag-os-block-text .col-sm-10, .tg-tag-os-block4 .col-sm-10{ width: 100%; margin: 0; }
+	.tgControl .tg-gps-photo .col-sm-12, .tgControl .tg-codes .col-sm-12, .tgControl .tg-signature .col-sm-12{ padding-bottom: 40px; padding-top: 30px; }
+	
+	#tg-ct-4 .col-sm-3{ margin-left: 0; width: 33.3333%; }
+	#tg-ct-4 .tg-text-2{ margin-bottom: 60px; }
+	#tg-ct-4 .tg-bouton2{ margin-top: 50px; }
+	.tg-rentabilite .col-sm-11{ padding-right: 0; }
+	
+	
+	#tgPourquoiForms, .tg-titre2{ font-size: 38px; }
+	.tgMarche .tg-titre4 strong{ font-size: 58px; }
+	.tg-titre4{ font-size: 19px; }
+	.tg-text-7{ font-size: 31px; }
+	.tg-titre7{ font-size: 48px; }
+	.tg-text-8{ font-size: 27px; line-height: 40px; }
+	
+	.tg-ct-1a:before, .tg-ct-1a:after, .tg-ct-1b:before, .tg-ct-1b:after{ background-size: 90% auto; }
+	body.index1 .imagefond svg{ width: 460px !important; }
+	body.page2 h1{ font-size: 47px; }
+	body.page2 h3{ font-size: 28px; }
+	#content4 p.tg-tarif span{ font-size: 20px; }
+	body.page2 p{ font-size: 19px; }
+	#imagefond3a{ width: 150px; }
+	#imagefond3b{ width: 220px; }
+	#imagefond3c{ width: 190px; }
+}
+
+@media only screen and (max-device-width : 1024px) {
+	html, body, p{ font-size: 19px; }
+	p{ line-height: 28px; }
+
+	body.page2 .site-header{
+		background-color: #8b5cf6 !important;
+		position: fixed !important;
+	}
+	
+	.menu-toggle{ display: block; }
+	#content1{ margin-top: 81px; }
+	
+	.tg-maitrise-fond{ margin-top: 50px; }
+	.tg-titre2{ font-size: 36px; }
+	
+	.page-id-55 .tg-ct-0{ padding-top: 3%; }
+	.go-top{ left: 20px; right: inherit; }
+	
+	body.index2 #imagefond{ background-size: 22%; }
+	
+	.tg-smart-menu{ display: none; }
+	body.page2 .tg-smart-menu2{
+		background-color: #8b5cf6;
+		border-top: 1px solid rgba(255,255,255,0.4);
+		display: block;
+		left: 0;
+		margin-top: 30px;
+		position: absolute;
+		right: 0;
+	}
+	body.page2 .tg-smart-menu2:before{
+		background-color: #8b5cf6;
+		position: absolute;
+		height: 29px;
+		left: 0;
+		right: 0;
+		top: -30px;
+		width: 100%;
+	}
+	.tg-smart-menu2 ul{ display: none; }
+	.tg-smart-menu2 li{
+		padding: 12px 0 0;
+	}
+	.tg-smart-menu2 li a{
+		display: inline-block;
+		position: relative;
+	}
+	.tg-smart-menu2 li a:hover:before, .tg-smart-menu2 li.active a:before{
+		background-color: #93E73F;
+		border-radius: 50%;
+		content: " ";
+		display: block;
+		height: 10px;
+		left: -20px;
+		position: absolute;
+		text-align: center;
+		top: 9px;
+		width: 10px;
+		z-index: 1;
+	}
+	#menuToggle2{
+		background-image: url("/images/tg-menu2.svg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain;
+		cursor: pointer;
+		display: block;
+		height: 18px;
+		left: 0;
+		margin: auto;
+		position: absolute;
+		right: 0;
+		top: -24px;
+		width: 32px;
+				 
+		 -webkit-transition: all 0.45s ease;
+			-moz-transition: all 0.45s ease;
+			 -ms-transition: all 0.45s ease;
+			  -o-transition: all 0.45s ease;
+				 transition: all 0.45s ease;
+	}
+	#menuToggle2.open{
+		 -webkit-transform: rotate(180deg);
+			-moz-transform: rotate(180deg);
+			  -o-transform: rotate(180deg);
+			 -ms-transform: rotate(180deg);
+				 transform: rotate(180deg);
+	}
+	.tg-smart-menu-footer{
+		display: block;
+		position: relative;
+		z-index: 2;
+	}
+	.tg-smart-menu-footer {border-top: 1px solid rgba(255,255,255,.4); padding-top: 25px; margin-top: 25px; }
+	.tg-smart-menu-footer li{ padding: 5px; }
+	.tg-smart-menu-footer li.active{ font-weight: bold; font-size: 18px; }
+}
+
+@media only screen and (max-device-width : 991px){
+	html, body, p{ font-size: 17px; }
+	.tg-forms-geeks{ padding: 0; }
+	.l-menu .container .btn_close, .blg-contact-form .container .btn_close{ right: 0; }
+	#tgFormsGeeks{
+		height: 380px;
+		padding: 35px 0 0;
+	}
+	#tgFormsGeeks .tg-text-3{
+		font-size: 14px;
+		line-height: 22px;
+	}
+	
+	.tg-ct-1a, .tg-ct-1b{ display: none; }
+	.tg-bouton{ height: 44px; line-height: 37px; }
+	.tg-ct-11, .tg-ct-14, .tg-ct-16, .tg-bouton1, #tg-ct-3 h2.tg-titre2{ margin-bottom: 70px; margin-top: 70px; }
+	
+	#tg-ct-13, #tgPourquoiForms{ margin-top: 100px; }
+	.tgControl .tg-gps-photo, .tgControl .tg-codes, .tgControl .tg-signature{ padding: 0 5px; }
+	.tgControl .tg-gps-photo .col-sm-12, .tgControl .tg-codes .col-sm-12, .tgControl .tg-signature .col-sm-12{ padding: 10px; }
+	
+	.tg-titre2{ font-size: 34px; }
+	.tg-titre6, .tg-text-5{ font-size: 22px; }
+	.tg-text-6{ font-size: 22px; line-height: 30px; margin-top: 15px; }
+	.page-id-55 .tg-titre1,
+	.tg-titre7{ font-size: 45px; }
+	.tg-text-7{ font-size: 27px; line-height: 36px; }
+	.tg-text-8{ font-size: 24px; line-height: 30px; }
+	.tg-text-3c, .tg-text-3d{ line-height: 28px; }
+	.tg-text-3c{ margin-top: 165px; }
+	
+	#tg-ct-7 .col-sm-5:last-child{ width: 58.3333%; }
+	.tg-maitrise-flotte .tg-animate .col-sm-10{ margin-left: 0; width: 100%; }
+	.tg-ct-11, .tg-ct-14, .tg-ct-16, .tg-bouton1{ margin-bottom: 70px; margin-top: 70px; }
+	#tgAvantages, .tg-productivite2, .tg-rentabilite, .tg-satisfaction-client, .tg-exploitation img, .tg-client{ margin-bottom: 70px; }
+	
+	#tgMarche, #tgControl,
+	.tg-gestion-parc, .tg-alert-rapport, .tg-productivite, .tg-gestion, .tg-tag-os-texte, .tg-ct-11, .tg-ct-14, .tg-ct-16, .tg-bouton1, #tg-ct-3 h2.tg-titre2{ margin-top: 50px; }
+	#tgMarche, #tgControl, #tgAvantages, .tg-productivite, .tg-ct-11, .tg-ct-14, .tg-ct-16, .tg-bouton1, #tg-ct-3 h2.tg-titre2{ margin-bottom: 50px; }
+	#tg-ct-5, #tg-ct-6, #tg-ct-7, #tg-ct-8, #tg-ct-9{ margin-bottom: 35px; }
+	#tg-ct-6, #tg-ct-7, #tg-ct-8, #tg-ct-9, #tg-ct-10{ margin-top: 35px; }
+	
+	.tg-tag-os-block4{ padding-bottom: 15px; }
+	.tg-abonnement-tbl1{ margin-top: 30px; }
+	.tg-abonnement-tbl2{ margin-top: 0; }
+	
+	.tg-abonnement-tbl1 table, .tg-abonnement-tbl2 table{ font-size: 15px; }
+	.tg-abonnement-tbl1 table th, .tg-abonnement-tbl2 table th{ padding: 15px 5px; }
+	.tg-abonnement-tbl1 table th, .tg-abonnement-tbl1 table td, .tg-abonnement-tbl2 table th, .tg-abonnement-tbl2 table td{ padding: 10px; }
+	
+	#tg-ct-17 .col-sm-6.col-xs-offset-3{
+		margin-left: 0;
+		width: 100%;
+	}
+}
+
+@media only screen and (max-device-width : 768px){
+	
+}
+
+
+@media only screen and (max-device-width : 767px){
+	html, body, p, .tg-text-3{ font-size: 15px; }
+	p{ line-height: 25px; }
+	
+	#menuToggle .tg-transition, .tg-gestion, .tg-rentabilite .col-sm-5{ display: none; }
+	.l-menu .container .btn_close, .l-menu .ct_close .btn_close{ right: 23px; top: 28px; }
+	.menu-toggle{ right: 25px; top: -30px; }
+	.btn-menu:before{ content: ''; }
+	
+	#tgFormsGeeks{
+		margin: auto;
+		padding: 45px 45px 0;
+		width: 310px;
+	}
+	
+	.page-id-4 .tg-ct-0{ padding-top: 10%; padding-bottom: 10%; }
+	.tg-ct-1a:before, .tg-ct-1b:before, .tg-ct-1a:after, .tg-ct-1b:after{ background-image: none; }
+	
+	.tg-titre1{ font-size: 31px; }
+	.page-id-55 .tg-titre1, .tg-titre7{ font-size: 40px; margin-bottom: 10%; }
+	.page-id-55 .tg-text-slide{ font-size: 15px; line-height: 25px; }
+	.tg-titre2, #tgPourquoiForms{ font-size: 29px; }
+	.tg-titre3a{ font-size: 40px; }
+	.tg-text-5, .tg-titre6, .tg-text-7{ font-size: 22px; }
+	.tg-titre5{ font-size: 28px; line-height: 38px; }
+	.tg-text-6{ font-size: 20px; line-height: 28px; }
+	.tg-text-7{ line-height: 28px; }
+	.tg-text-8{ font-size: 22px; line-height: 28px; }
+	
+	#tg-ct-4, #tg-ct-6, #tg-ct-7, #tg-ct-8, #tg-ct-9, #tg-ct-12, #tgMarche, #tgControl, #tgAvantages, #tgLogos, .tg-productivite, .tg-ct-11, .tg-ct-14, .tg-ct-16, .tg-bouton1, #tg-ct-3 h2.tg-titre2, .tg-client .col-sm-5.pull-right, .tg-tagos-rapport .tg-titre4, .tg-tag-os-block-text{ margin-top: 25px; }
+	#tg-ct-5, #tg-ct-6, #tg-ct-7, #tg-ct-8, #tg-ct-9, #tg-ct-4 .tg-text-2, #tgMarche, #tgControl, .tg-alert-rapport, .tg-productivite, .tg-gestion, .tg-tag-os-texte, .tg-ct-11, .tg-ct-14, .tg-ct-16, .tg-bouton1, #tg-ct-3 h2.tg-titre2, .tg-client .col-sm-5.pull-right, .tg-maitrise-flotte, .tg-productivite .img-responsive, .tg-tag-os-block-text, .tgControl .tg-gps-photo, .tgControl .tg-codes, .tgControl .tg-signature, #tg-ct-13 .tg-text-7{ margin-bottom: 25px; }
+	
+	#tg-ct-1, .tg-productivite img, #tg-ct-5, #tg-ct-13, .tg-maitrise-flotte, .tg-text-3c, .tg-text-3d, .tg-img-rond{ margin-top: 50px; }
+	#tg-ct-5 h2, #tg-ct-9 h2, #tgAvantages, #tg-ct-13 .tg-img-rond:last-child, .tg-productivite2, .tg-rentabilite, .tg-satisfaction-client, .tg-exploitation img, .tg-client{ margin-bottom: 50px; }
+	
+	#tg-ct-10{ margin-top: 0; }
+	.tg-gestion-parc{ margin-bottom: 0; }
+	#tgGestionParc{ top: 0; }
+	.page-id-4 #tg-ct-0{ background-size: cover; }
+	
+	.tg-icone{ margin-left: auto; margin-right: auto; }
+	.tg-text-3c, .tg-text-3d, 
+	.tg-application .tg-titre4, .tg-mail .tg-titre4 , .tg-sms .tg-titre4,
+	#tg-ct-7 .tg-titre2, #tgLogos .col-sm-5, .tg-graphique .tg-titre4, .tg-excel .tg-titre4, .tg-tagos-alert .tg-titre4, .tg-tagos-rapport .tg-titre4, .tg-application2 .tg-titre4, .tg-bdd .tg-titre4, .tg-logiciel .tg-titre4{ text-align: center; }
+	.tgControl .tg-gps-photo .tg-icone, .tgControl .tg-codes .tg-icone, .tgControl .tg-signature .tg-icone{ margin-left: 0; }
+	
+	.tg-bouton{ width: 250px; }
+	#tg-ct-4 .col-sm-3, #tg-ct-7 .col-sm-5:last-child, .tg-productivite .col-sm-4{ width: inherit; }
+	#tgLogos{ position: relative; }
+	
+	
+	#tg-ct-0 .col-sm-10.col-xs-offset-1{ padding-left: 0; }
+	#tg-ct-0 .col-sm-4.col-xs-offset-5, #tg-ct-0 .col-sm-10.col-xs-offset-1{ padding-right: 0; }
+	#tg-ct-3, #tg-ct-4 .col-sm-3.col-xs-offset-1, #tg-ct-4 .col-sm-8.pull-right, .tg-tag-os-block-text:last-child{ padding-left: 15px !important; }
+	#tg-ct-3, #tg-ct-4 .col-sm-3.col-xs-offset-1, #tg-ct-4 .col-sm-8.pull-right, .tg-tag-os-block-text:last-child{ padding-right: 15px !important; }
+	
+	.tg-tag-os-block4{ padding-top: 15px; }
+	.tgControl .tg-gps-photo, .tgControl .tg-codes, .tgControl .tg-signature{ display: block; }
+	
+	.imagefond, body.index1 #imagefond, body.index2 #imagefond, body.index3 #imagefond, body.index4 #imagefond{ position: relative; }
+	body.index1 .imagefond{ margin-top: 110px; }
+	#content1{ margin-top: 0; }
+	.tg-smart-menu2{ margin-top: 65px; position: relative; }
+	body.index1 .imagefond svg{ display: block; margin: auto; }
+	
+	.tg-smart-menu { display: none; }
+	
+	#content2 .tg-lg-top{ margin: 0 0 10px; }
+	#content3{ margin-top: 150px; }
+	#content3 .container .col-sm-12.tg-ct-titre{ margin-top: 0 !important; margin-bottom: 0 !important; }
+	#content3 .tg-avantage{ height: auto !important; }
+	#content3 .imagefond3{ margin-bottom: 25px; position: relative; }
+	#content4 { margin-top: 80px; }
+	#content4 .tg-font-vert{ padding-left: 0; text-align: left; }
+	#imagefond4{ height: auto !important; }
+	body.page2 h1{ font-size: 40px; }
+	body.page2 h3{ font-size: 25px; }
+	body.page2 p, #content4 p.tg-tarif span{ font-size: 18px; line-height: normal; }
+	
+	.index2 #page { margin-top: 110px; }
+	.index2 .tg-animate.text-center{ text-align: left !important; }
+	.tg-logo { text-align: left; margin-left: 13px; padding-top: 30px; }
+	.tg-ct-0b{ padding-top: 0; padding-bottom: 6%; }
+}
+
+
+@media only screen and (max-width: 479px) {
+	html, body, p, .tg-text-3, .page-id-55 .tg-text-slide, .tg-abonnement-tbl1 table, .tg-abonnement-tbl2 table{ font-size: 14px; line-height: normal; }
+	p, .page-id-55 .tg-text-slide{ line-height: 20px; }
+	#content1{ margin-top: 61px; }
+	.site-header{ padding: 10px 0; }
+	.tg-text-slide br{ display: none; }
+	body{ margin-bottom: 82px; }
+	#colophon{ height: 82px; }
+	
+	.site-footer{ padding: 4px 0; }
+	
+	.page-id-55 .tg-titre1, .tg-titre7{ font-size: 37px; }
+	.tg-titre1, .tg-titre2, #tgPourquoiForms{ font-size: 26px; }
+	.tg-titre3a{ font-size: 32px; }
+	.tg-titre5{ font-size: 24px; line-height: 28px; }
+	.tg-titre4{ font-size: 17px; }
+	.tg-text-5, .tg-titre6, .tg-text-7, .tg-text-8{ font-size: 18px; }
+	.tg-text-7, .tg-text-8{ line-height: 24px; }
+	.tgMarche .tg-titre4 strong{ font-size: 38px; }
+	#menu-principal .menu-item, #menu-principal .menu-item a{ font-size: 20px; }
+	
+	#tg-ct-4, #tg-ct-6, #tg-ct-7, #tg-ct-8, #tg-ct-9, #tg-ct-12, #tgMarche, #tgControl, #tgAvantages, #tgLogos, .tg-productivite, .tg-ct-11, .tg-ct-14, .tg-ct-16, #tg-ct-3 h2.tg-titre2, .tg-client .col-sm-5.pull-right, .tg-tagos-rapport .tg-titre4, .tg-tag-os-block-text, .tg-tag-os-texte{ margin-top: 18px; }
+	#tg-ct-5, #tg-ct-6, #tg-ct-7, #tg-ct-8, #tg-ct-9, #tg-ct-4 .tg-text-2, #tgMarche, #tgControl, #tg-ct-6 .tg-titre2, .tg-alert-rapport, .tg-productivite, .tg-gestion, .tg-tag-os-texte, .tg-ct-11, .tg-ct-14, .tg-ct-16, #tg-ct-3 h2.tg-titre2, .tg-maitrise-flotte, .tg-tag-os-block-text, .tgControl .tg-gps-photo, .tgControl .tg-codes, .tgControl .tg-signature, .tg-accueil-carre, .tg-text-6{ margin-bottom: 18px; }
+	
+	#tg-ct-1, #tg-ct-5, #tg-ct-13, #tgControl, #tg-ct-4 .tg-bouton2, .tg-maitrise-flotte, .tg-text-3c, .tg-text-3d, .tg-img-rond, .tg-maitrise-fond, .tg-bouton1, .tg-productivite .img-responsive, .tg-exploitation .img-responsive, .tgMarche .tg-icone, .tgControl{ margin-top: 25px; }
+	#tg-ct-5 h2, #tg-ct-9 h2, #tgAvantages, #tg-ct-13 .tg-img-rond, .tg-productivite2, .tg-rentabilite, .tg-satisfaction-client, .tg-exploitation img, .tg-client, #tg-ct-1, .tg-bouton1, #tg-ct-4 .tg-bouton2, .tg-application h4, .tg-mail h4, .tg-sms h4, .tg-graphique h4, .tg-excel h4, .tg-tagos-alert h4, .tg-tagos-rapport h4, .tg-titre6, .tg-productivite .img-responsive, .tg-exploitation .img-responsive, #tg-ct-13 .tg-text-7, .tgMarche .tg-icone{ margin-bottom: 25px; }
+	
+	#tg-ct-6 .tg-titre2, .tg-titre5{ margin-top: 0; }
+	#tg-ct-9, .tg-client .col-sm-5.pull-right{ margin-bottom: 0; }
+	
+	.tg-abonnement-tbl1 table th, .tg-abonnement-tbl1 table td, .tg-abonnement-tbl2 table th, .tg-abonnement-tbl2 table td{ padding: 5px 7px; }
+	.tg-tag-os-block4{ padding-left: 0; }
+	.tg-tag-os-block4{ padding-right: 0; }
+	.tg-text-slide{ padding: 0 15px; }
+	.page-id-55 .tg-text-slide{ padding-left: 0; }
+	
+	.page-id-4 #tg-ct-0{ background-size: auto 80%; }
+	.tg-fleche-v{ display: block; margin-top: 35px; position: relative; }
+	.page-id-55 #tg-ct-0{ background-image: none !important; }
+	.tg_track{
+		display: block;
+		margin-bottom: 20px;
+		margin-left: -100%;
+		opacity: 1;
+		visibility: visible;
+		width: 75%;
+		
+		 -webkit-transition: all 3s ease;
+			-moz-transition: all 3s ease;
+			 -ms-transition: all 3s ease;
+			  -o-transition: all 3s ease;
+				 transition: all 3s ease;
+	}
+	.tg-active .tg_track{ margin-left: 0; }
+	
+	#tg-ct-0 .col-sm-4{ width: 100%; padding-left: 0; }
+	#tg-ct-0 .col-xs-offset-5{ margin-left: 0; }
+	.tg-img-rond{ width: 50%; }
+	.tg-ct-11, .tg-ct-14, .tg-ct-16{ background-attachment: initial; }
+	
+	#tg-ct-0 .col-sm-4.col-xs-offset-5{ padding-left: 15px; padding-right: 15px; }
+	.widget-area .widget{ display: block; font-size: 15px; text-align: center; }
+	
+	body.index1 .imagefond svg{ width: 100% !important; }
+	body.index2 #imagefond{ bottom: 0; top: 0; }
+	body.page2 h1{ font-size: 35px; }
+	body.page2 h3{ font-size: 21px; }
+	body.page2 p{ font-size: 17px; }
+	body.page2 p, #content4 p.tg-tarif span{ font-size: 17px; line-height: 25px; }
+	
+	.tg-span-tarif{ display: block; padding: 8px; }
+	.tg-smart-menu2 li a:hover:before, .tg-smart-menu2 li.active a:before{ top: 3px; }
+	.tg-smart-menu-footer2 li{ line-height: normal; }
+	.tg-smart-menu-footer2 li a{ line-height: 28px }
+}
+
+@media only screen and (max-width: 360px) {
+	html, body { font-size: 14px; }
+	#tg-ct-0 .col-sm-4.col-xs-offset-5{ padding-right: 15px; }
+	
+}
+
+@media only screen and (max-width: 320px) {
+	html, body,.site-footer {
+		font-size: 12px;
+	}
+	
+	.tgMarche .tg-titre4 strong{ font-size: 31px; }
+	.page-id-55 .tg-titre1, .tg-titre7{ font-size: 30px; }
+	.tg-titre3a{ font-size: 27px; }
+	.tg-titre1, .tg-titre2, #tgPourquoiForms{ font-size: 21px; }
+	.tg-titre5{ font-size: 20px; line-height: 23px; }
+	#menu-principal .menu-item, #menu-principal .menu-item a, .tg-text-6{ font-size: 17px; }
+	.tg-text-5, .tg-titre6, .tg-text-7, .tg-text-8{ font-size: 16px; }
+	.tg-titre4{ font-size: 15px; }
+	.tg-text-7, .tg-text-8{ line-height: 20px; }
+	
+	.go-top { display:none; }
+}

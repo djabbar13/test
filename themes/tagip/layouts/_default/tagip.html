@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+
+    <body class="page">
+		<div class="hfeed site" id="page">
+			{{ partial "header.html" . }}
+			{{ $template := delimit (slice "pages/" (string .Params.slug) ".html") "" }}
+			{{ partial (string $template) . }}
+		</div>
+
+		{{ block "footer" . }}
+			{{ partial "footer.html" . }}
+		{{ end }}
+
+        {{ partial "javascript.html" . }}
+    </body>
+</html>

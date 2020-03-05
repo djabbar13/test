@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}" class="page2">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+
+    <body class="page2 index1">
+		<div class="imagefond"><div id="imagefond"></div></div>
+		<div class="hfeed site" id="page">
+			{{ partial "header.html" . }}
+			{{ $template := delimit (slice "pages/" (string .Params.slug) ".html") "" }}
+			{{ partial (string $template) . }}
+		</div>
+		
+        {{ partial "javascript.html" . }}
+    </body>
+</html>

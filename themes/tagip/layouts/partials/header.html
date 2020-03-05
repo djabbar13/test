@@ -1,0 +1,62 @@
+<header class="site-header fixed" id="masthead" role="banner">
+    <div class="header-wrap">
+		<div class="row">
+			<div class="col-sm-5 col-xs-12 col-xs-offset-1 tg-logo">
+				<a href="{{ .Site.Params.Logo.logoHomeLink }}" title="{{ .Site.Params.Logo.logoText }}" id="site-logo">
+					<img src="{{ .Site.Params.Logo.logoImage }}" alt="{{ .Site.Params.Logo.logoText }}" class="site-logo">
+				</a>
+			</div>
+			<div class="col-sm-5 col-xs-12">
+				<div id="menuToggle" class="btn-menu menu-toggle">
+					<strong class="tg-transition">Menu</strong>
+					<span class="radius-5"></span>
+					<span class="radius-5"></span>
+					<span class="radius-5"></span>
+					<span class="radius-5"></span>
+				</div>
+			</div>
+		</div>
+		<div class="row tg-smart-menu2 text-center">
+			<span id="menuToggle2"></span>
+			<ul class="list-unstyled">
+				<li class="list-inline-item active">
+					<a href="#content1" data-classbody="index1" class="tg-smart-menu-item">
+						<div>{{ .Params.content_onglet_1 }}</div>
+					</a>
+				</li>
+				<li class="list-inline-item">
+					<a href="#content2" data-classbody="index2" class="tg-smart-menu-item">
+						<div>{{ .Params.content_onglet_2 }}</div>
+					</a>
+				</li>
+				<li class="list-inline-item">
+					<a href="#content3" data-classbody="index3" class="tg-smart-menu-item">
+						<div>{{ .Params.content_onglet_3 }}</div>
+					</a>
+				</li>
+				<li class="list-inline-item">
+					<a href="#content4" data-classbody="index4" class="tg-smart-menu-item">
+						<div>{{ .Params.content_onglet_4 }}</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="l-menu js-menu">
+		<div class="ct_close">
+			<div class="col-sm-11">
+				<a class="btn_close js-menuCloseBtn tg-transition" href="#">
+					<span class="icon tg-transition"></span>
+				</a>
+			</div>
+		</div>
+		<div class="container js-menuContainer">
+			<div class="row">
+				{{ if len .Site.Menus -}}
+					{{ partial "menu.html" . }}
+				{{- end }}
+			</div>
+		</div>
+		<div class="bg js-menuBg tg-transition"></div>
+	</div>
+</header>
