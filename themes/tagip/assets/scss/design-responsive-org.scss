@@ -11,12 +11,26 @@
 	.tg-avantage .tg-flex1 .tg-content2{ height: 100%; }
 }*/
 
+@media only screen and (min-device-width : 1920px) {
+	#content3 .panel-grid{ max-width: 80%; }
+	#content3 .panel-grid .container{ width: 100%; }
+	
+	#content4 .panel-grid{ max-width: 80%; }
+	#content4 .panel-grid .container{ width: 100%; }
+	#content4 .col-sm-3.tg-avantage2{ padding-left: 1em; padding-right: 1em; }
+}
+
 @media only screen and (max-device-width : 1440px) {
 	body.page2 p{ line-height: 25px; }
 	#content3 .container .col-sm-12.tg-ct-titre{ margin-top: 70px !important; }
 	#content3 .tg-avantage, #content3 .tg-avantage-2{ padding-left:15px; padding-right:15px; }
 	#content4 .container .col-sm-12.tg-ct-img{ margin-top: 40px !important; }
 	body.index2 #imagefond{ top: -136px; }
+}
+
+@media only screen and (min-device-width : 1200px) and (max-device-width : 1350px){
+	#content2 .container{ width: 1024px; }
+	#content3 .container{ width: 1024px; }
 }
 
 @media only screen and (max-device-width : 1199px) {
