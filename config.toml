@@ -1,4 +1,5 @@
-baseURL = "https://www.tag-ip.com"
+#baseURL = "https://www.tag-ip.com"
+baseURL = "https://sharp-lichterman-0123d0.netlify.com/"
 title   = "Tag Ip"
 MetaDataFormat = "toml"
 
