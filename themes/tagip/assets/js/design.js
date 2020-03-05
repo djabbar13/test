@@ -318,7 +318,7 @@ function resizeImg(type){
 		case 'page4' : 
 			himagefond4 = h - parseInt(jQuery('.tg-ct-txt').outerHeight(true));
 			himagefond4 -= parseInt(jQuery('.tg-ct-img').css('marginTop'));
-			himagefond4 -= 15;
+			himagefond4 -= 25;
 			// himagefond4 -= parseInt(jQuery('.tg-smart-menu.text-center').css('bottom'));
 			// himagefond4 -= parseInt(jQuery('.tg-smart-menu .tg-list-menu').outerHeight());
 			
