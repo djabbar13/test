@@ -395,7 +395,8 @@ function resizeImg(type){
 jQuery(window).on('wheel', function(event){ scrollPage(event); });
 	function scrollPage(event){
 		var tempo = true;
-		if(jQuery(window).width() > 1024 && false){
+		var cleartempo = false;
+		if(jQuery(window).width() > 1024){
 			scrollLeftPage = parseInt(jQuery('.tg-smart-menu').attr('data-menu'));
 			
 			if(tempo){
@@ -449,7 +450,8 @@ jQuery(window).on('wheel', function(event){ scrollPage(event); });
 					}
 				}
 				tempo = false;
-				setTimeout(function(){ tempo = true; jQuery('body.page2').animate({ scrollTop: 0}, 200); }, 1000);
+				clearTimeout(cleartempo);
+				cleartempo = setTimeout(function(){ tempo = true; jQuery('body.page2').animate({ scrollTop: 0}, 200); }, 1000);
 			}
 		}
 		
