@@ -321,7 +321,7 @@ function resizeImg(type){
 			himagefond4 -= 25;
 			// himagefond4 -= parseInt(jQuery('.tg-smart-menu.text-center').css('bottom'));
 			// himagefond4 -= parseInt(jQuery('.tg-smart-menu .tg-list-menu').outerHeight());
-			
+			console.log(himagefond4);
 			jQuery('#imagefond4').css('height', himagefond4);
 			break;
 	}
