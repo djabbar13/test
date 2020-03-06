@@ -165,6 +165,10 @@ body.page2 #site-logo:after{
 	width: 100%;
 	z-index: 2;
 }
+.site-logo{
+	position: relative;
+	top: -10px;
+}
 
 /* * * * Menu * * * */
 .menu-toggle:before{
@@ -1204,8 +1208,17 @@ body.page2 #site-logo:after{
 		top: 0;
 		width: 100%;
 	}
-	body.index1 #imagefond{ bottom: 0; left: 0; }
-	body.index1 .imagefond svg{ width: 510px !important; }
+	body.index1 #imagefond{
+		align-items: center;
+		display: flex;
+		bottom: 0;
+		left: 0;
+	}
+	body.index1 .imagefond svg{
+		height: 80vh !important;
+		width: auto !important;
+		/* width: 510px !important; */
+	}
 	body.index2 #imagefond{
 		bottom: -77px;
 		left: -45%;
@@ -1307,7 +1320,7 @@ body.page2 #site-logo:after{
 		position: relative;
 		/* width: 166px; */
 	}
-	.tg-smart-menu li.active, .tg-smart-menu2 li.active{
+	.tg-smart-menu li.active{
 		font-weight: bold;
 	}
 	.tg-smart-menu2{ display: none; }

@@ -28,7 +28,7 @@ jQuery(document).ready(function(){
 	testMobile = isMobile.any();
 	
 	jQuery('a[href^="#"]').click(function(){  
-		var el_objet_echap = new Array('connexion');
+		var el_objet_echap = new Array('connexion', 'content1', 'content2', 'content3', 'content4');
 		
 		var el_objet_tmp = jQuery(this).attr("href");
 		el_objet_tmp = el_objet_tmp.replace('#', '');
@@ -181,6 +181,8 @@ jQuery(document).ready(function(){
 		jQuery('.tg-smart-menu2 li').eq(jQuery('.tg-smart-menu-footer2 li').index(href)).addClass('active');
 		jQuery('#menuToggle2').removeClass('open');
 		jQuery('#menuToggle2').parent().children('.list-unstyled').slideUp();
+		
+		setTimeout(function(){ jQuery('html, body').animate({ scrollTop: jQuery('body.page2').offset().top }, 1000); }, 1000);
 	});
 	
 	jQuery('.tg-smart-menu li').on('click', function(){
@@ -194,6 +196,7 @@ jQuery(document).ready(function(){
 		jQuery(href).css('display', 'block');
 		
 		jQuery('body').removeClass('index1 index2 index3 index4').addClass(jQuery(this).children('a').data('classbody'));
+		setTimeout(function(){ jQuery('html, body').animate({ scrollTop: jQuery('body.page2').offset().top }, 1000); }, 1000);
 		
 		if(animation){
 			animation.destroy();
@@ -448,7 +451,7 @@ jQuery(window).on('wheel', function(event){ scrollPage(event); });
 					}
 				}
 				tempo = false;
-				setTimeout(function(){ tempo = true; jQuery('body.page2').animate({ scrollTop: 0}, 200); }, 1000);
+				setTimeout(function(){ tempo = true; }, 1000);
 			}
 		}
 		
