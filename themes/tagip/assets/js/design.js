@@ -389,6 +389,8 @@ function resizeImg(type){
 			if(himagefond4 > maxHeight){
 				marge = Math.floor((himagefond4 - maxHeight) / 2);
 				jQuery('.tg-ct-txt').css({'marginBottom' : marge, 'marginTop' : marge});
+			}else{
+				jQuery('.tg-ct-txt').css({'marginBottom' : 0, 'marginTop' : 0});
 			}
 			jQuery('#imagefond4').css('height', himagefond4); 
 			break;
