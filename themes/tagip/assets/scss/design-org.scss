@@ -1424,10 +1424,11 @@ body.page2 #site-logo:after{
 
 	@media only screen and (max-device-width:1024px){.page2 .site-header{background-color: transparent;}}
 	
+	#content1, #content2, #content3, #content4{ outline: none; }
 	#content2 .tg-ct-0b{ padding-top: 0; }
 	#content2 h1{ margin-top: 110px; }
 	#imagefond4{ max-height: 520px; }
-	#content1, #content2, #content3, #content4{ outline: none; }
+	#content4 .tg-tarif strong{ font-family: MyriadSetProText; font-weight: normal; }
 	/* *    FIN NOUVEAU DESIGN    * */
 
 

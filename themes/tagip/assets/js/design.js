@@ -106,7 +106,7 @@ jQuery(document).ready(function(){
 	jQuery('.tg-avantage, .tg-avantage2').find('p').addClass('tg-item tg-animate tg-animate2 animated2 visible-section').attr({'data-animate' : 'fadeIn', 'data-cache' : 'fadeOut'});
 	
 	
-	jQuery('#content1').addClass('tg-active');
+	jQuery('#content1').not('.page-id-55b').addClass('tg-active');
 	w_h = (jQuery(window).height() / 2) + 150;
 	
 	jQuery(window).scroll(function(){
@@ -299,7 +299,8 @@ jQuery(document).ready(function(){
 		}
 	});
 	
-	jQuery('.tg-smart-menu-item').on('click', function(){
+	jQuery('.tg-smart-menu-item').on('click', function(e){
+		e.preventDefault();
 		let active = jQuery(this).parent('li');
 		jQuery('.tg-smart-menu2').find('li').each(function(){
 			jQuery(this).removeClass('active');
