@@ -503,7 +503,21 @@ jQuery(function(t){
 			resizeImg('page4');
 		}
 		
-		
+		if(jQuery(window).width() <= 479){
+			if(jQuery('body').hasClass('page2')){
+				element = jQuery('#page').find('#masthead').detach();
+				if(element){
+					jQuery(element).insertBefore('.imagefond');
+				}
+			}
+		}else{
+			if(jQuery('body').hasClass('page2')){
+				element = jQuery('#masthead').detach();
+				if(element){
+					jQuery(element).insertBefore('#content1');
+				}
+			}
+		}
 		
 		t(".full-container").each(function(){
 			var r = t(this);
