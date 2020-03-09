@@ -189,8 +189,9 @@
 		font-family: MyriadSetProText;
 		padding: 3px 0;
 	}
-	.tg-smart-menu li.active, .tg-smart-menu2 li.active,
-	.tg-smart-menu-footer li.active{ font-weight: bold; font-size: 17px; }
+	.tg-smart-menu2 li{ padding: 10px 0 0; }
+	.tg-smart-menu2 li, .tg-smart-menu-footer li{ font-size: 16px; }
+	.tg-smart-menu2 li.active, .tg-smart-menu-footer li.active{ font-weight: bold; font-size: 18px; }
 }
 
 @media only screen and (max-device-width : 991px){
@@ -412,7 +413,7 @@
 	body.page2 p{ font-size: 17px; }
 	body.page2 p, #content4 p.tg-tarif span{ font-size: 17px; line-height: 25px; }
 	#content1.home #tg-ct-0{ background-image: none !important; }
-	.tg-smart-menu2 li{ padding: 12px 0 0; }
+	
 	
 	.tg-span-tarif{ display: block; padding: 8px; }
 	.tg-smart-menu2 li a:hover:before, .tg-smart-menu2 li.active a:before{ top: 6px; }
