@@ -429,6 +429,18 @@
 	#content3 .tg-ct-titre{ margin-bottom: 0 !important; }
 	#content3 .tg-ct-txt2{ margin-bottom: 0 !important; margin-top: 0 !important; }
 	#content4{ margin-top: 0; }
+	#tg-ct-0 .tg-ct-0 .tg-text-slide:after{
+		background-color: #fff;
+		bottom: -25px;
+		content: '';
+		display: block;
+		height: 1px;
+		left: 0;
+		margin: auto;
+		position: absolute;
+		right: 0;
+		width: 60px;
+	}
 }
 
 @media only screen and (max-width: 360px) {
