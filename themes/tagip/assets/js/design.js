@@ -313,12 +313,15 @@ jQuery(document).ready(function(){
 	jQuery('#content1 .tg-bloc-noir').click(function(){
 		if(jQuery('#content1 video').get(0).paused){
 			jQuery('#content1 video').get(0).play();
-			jQuery(this).removeClass('tg-pause');
+			// jQuery(this).removeClass('tg-pause');
 		}else{
 			jQuery('#content1 video').get(0).pause();
-			jQuery(this).addClass('tg-pause');
+			// jQuery(this).addClass('tg-pause');
 		}
 	});
+	// jQuery('#content1 video').bind('stop', function(){
+		// jQuery('#content1 .tg-bloc-noir').addClass('tg-pause');
+	// });
 });
 
 function resizeImg(type){

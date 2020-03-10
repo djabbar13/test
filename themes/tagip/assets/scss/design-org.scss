@@ -1427,7 +1427,7 @@ body.page2 #site-logo:after{
 	#content1, #content2, #content3, #content4{ outline: none; }
 	#content1 video{ object-fit: fill; }
 	#content1 .tg-bloc-noir{ position: relative; }
-	#content1 .tg-bloc-noir.tg-pause:after{ background-image: url('/images/tg-play.svg'); }
+	/* #content1 .tg-bloc-noir.tg-pause:after{ background-image: url('/images/tg-play.svg'); } */
 	#content1 .tg-bloc-noir:after{
 		bottom: 0;
 		background-repeat: no-repeat;
