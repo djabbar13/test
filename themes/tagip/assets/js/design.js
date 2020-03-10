@@ -309,6 +309,16 @@ jQuery(document).ready(function(){
 		jQuery('#menuToggle2').trigger('click');
 		jQuery('.tg-smart-menu li').eq(active.index()).trigger('click');
 	});
+	
+	jQuery('#content1 .tg-bloc-noir').click(function(){
+		if(jQuery('#content1 video').get(0).paused){
+			jQuery('#content1 video').get(0).play();
+			jQuery(this).removeClass('tg-pause');
+		}else{
+			jQuery('#content1 video').get(0).pause();
+			jQuery(this).addClass('tg-pause');
+		}
+	});
 });
 
 function resizeImg(type){

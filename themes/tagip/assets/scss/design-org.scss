@@ -1425,6 +1425,24 @@ body.page2 #site-logo:after{
 	@media only screen and (max-device-width:1024px){.page2 .site-header{background-color: transparent;}}
 	
 	#content1, #content2, #content3, #content4{ outline: none; }
+	#content1 video{ object-fit: fill; }
+	#content1 .tg-bloc-noir{ position: relative; }
+	#content1 .tg-bloc-noir.tg-pause:after{ background-image: url('/images/tg-play.svg'); }
+	#content1 .tg-bloc-noir:after{
+		bottom: 0;
+		background-repeat: no-repeat;
+		background-size: 100px auto;
+		background-position: center;
+		background-color: rgba(0,0,0,0);
+		content: '';
+		cursor: pointer;
+		height: calc(100% - 11px);
+		left: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 100%;
+	}
 	#content2 .tg-ct-0b{ padding-top: 0; }
 	#content2 h1{ margin-top: 110px; }
 	#imagefond4{ max-height: 520px; }
