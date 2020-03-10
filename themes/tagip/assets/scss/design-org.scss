@@ -824,9 +824,9 @@ body.page2 #site-logo:after{
 		margin-bottom: 45px;
 		padding-top: 15px;
 	}
-	.tg-application .tg-icone{ background-image: url('/images/tg-responsive.svg'); }
-	.tg-mail .tg-icone{ background-image: url('/images/tg-mail.svg'); }
-	.tg-sms .tg-icone{ background-image: url('/images/tg-sms.svg'); }
+	.tg-application .tg-icone{ background-image: url('/images/tg-responsive2.svg'); }
+	.tg-mail .tg-icone{ background-image: url('/images/tg-mail2.svg'); }
+	.tg-sms .tg-icone{ background-image: url('/images/tg-sms2.svg'); }
 	
 	.tg-application .tg-icone,
 	.tg-mail .tg-icone,
@@ -848,14 +848,14 @@ body.page2 #site-logo:after{
 		height: 74px;
 		width: 62px;
 	}
-	.tg-graphique .tg-icone{ background-image: url('/images/tg-graphique.svg'); }
-	.tg-excel .tg-icone{ background-image: url('/images/tg-excel.svg'); }
+	.tg-graphique .tg-icone{ background-image: url('/images/tg-graphique2.svg'); }
+	.tg-excel .tg-icone{ background-image: url('/images/tg-excel2.svg'); }
 	
 	
 	.tg-tagos-alert h4, .tg-tagos-rapport h4{ padding: 0}
 	
-	.tg-tagos-alert .tg-icone{ background-image: url('/images/tg-tagos-alert.svg'); }
-	.tg-tagos-rapport .tg-icone{ background-image: url('/images/tg-tagos-rapport.svg'); }
+	.tg-tagos-alert .tg-icone{ background-image: url('/images/tg-tagos-alert2.svg'); }
+	.tg-tagos-rapport .tg-icone{ background-image: url('/images/tg-tagos-rapport2.svg'); }
 	
 .tg-gestion-parc{
 	margin-top: 60px;
@@ -921,7 +921,7 @@ body.page2 #site-logo:after{
 	}
 	.tg-abonnement-tbl1 table th,
 	.tg-abonnement-tbl2 table th{
-		color: #ff7d10;
+		color: #4A90E2;
 		font-family: MyriadSetProThin;
 		font-size: 24px;
 		font-weight: normal;
@@ -1066,9 +1066,9 @@ body.page2 #site-logo:after{
 			margin-bottom: 40px;
 			width: 80px;
 		}
-		.tg-application2 .tg-icone{ background-image: url('/images/tg-application2.svg'); }
-		.tg-bdd .tg-icone{ background-image: url('/images/tg-database.svg'); }
-		.tg-logiciel .tg-icone{ background-image: url('/images/tg-logiciel.svg'); }
+		.tg-application2 .tg-icone{ background-image: url('/images/tg-application3.svg'); }
+		.tg-bdd .tg-icone{ background-image: url('/images/tg-database2.svg'); }
+		.tg-logiciel .tg-icone{ background-image: url('/images/tg-logiciel2.svg'); }
 		
 		.tgMarche .tg-titre4 strong{
 			font-size: 62px;
@@ -1295,10 +1295,11 @@ body.page2 #site-logo:after{
 	}
 	/* .tg-avantage-3{ background-image: url(/images/tg-avantage-3.svg); } */
 	.imagefond3{
-		bottom: 0;
+		/* bottom: 0; */
 		left: 0;
 		position: absolute;
 		right: 0;
+		top: 0;
 	}
 	.imagefond3 #imagefond3a, .imagefond3 #imagefond3b,.imagefond3 #imagefond3c{ margin: auto; }
 	#imagefond3a{ width: 180px; }
@@ -1310,11 +1311,11 @@ body.page2 #site-logo:after{
 		font-weight: bold;
 	}
 	#content4 .tg-font-vert{
-		color: #93E73F;
 		padding-left: 50px;
 		padding-right: 50px;
 		font-weight: bold;
 	}
+	#content4 .tg-font-vert, #content4 .tg-font-vert *{ color: #93E73F; }
 	.tg-smart-menu li{
 		color: white !important;
 		position: relative;
@@ -1446,7 +1447,11 @@ body.page2 #site-logo:after{
 	#content2 .tg-ct-0b{ padding-top: 0; }
 	#content2 h1{ margin-top: 110px; }
 	#imagefond4{ max-height: 520px; }
-	#content4 .tg-tarif strong{ font-family: MyriadSetProText; font-weight: normal; }
+	#content4 .tg-tarif strong{
+		color: #F7E000;
+		font-family: MyriadSetProText; 
+		font-weight: normal;
+	}
 	/* *    FIN NOUVEAU DESIGN    * */
 
 

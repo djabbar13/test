@@ -313,15 +313,13 @@ jQuery(document).ready(function(){
 	jQuery('#content1 .tg-bloc-noir').click(function(){
 		if(jQuery('#content1 video').get(0).paused){
 			jQuery('#content1 video').get(0).play();
-			// jQuery(this).removeClass('tg-pause');
 		}else{
 			jQuery('#content1 video').get(0).pause();
-			// jQuery(this).addClass('tg-pause');
 		}
 	});
-	// jQuery('#content1 video').bind('stop', function(){
-		// jQuery('#content1 .tg-bloc-noir').addClass('tg-pause');
-	// });
+	jQuery('#content1 video').on('ended', function(){
+		jQuery(this).get(0).load();
+	});
 });
 
 function resizeImg(type){
@@ -342,6 +340,11 @@ function resizeImg(type){
 			}else{
 				jQuery('#content1 .tg-ct-0b').removeAttr('style');
 			}
+			
+			if(w > 767 && h <= 900){
+				setTimeout(function(){ jQuery('body.index1 .imagefond svg').css('min-height', jQuery('#content1 .tg-ct-0b').outerHeight(false)); }, 200);
+			}
+			
 			break;
 			
 		case 'page2' : 
@@ -365,7 +368,7 @@ function resizeImg(type){
 			maxHeightct2 = 0;
 			maxHeightimg = 0;
 			jQuery('#content3').find('.tg-content2').each(function(){
-				maxHeightct2 = Math.max(maxHeightct2, parseInt(jQuery(this).outerHeight(true)));
+				maxHeightct2 = Math.max(maxHeightct2, parseInt(jQuery(this).outerHeight(false)));
 			});
 			jQuery('#content3').find('.imagefond3').each(function(){
 				maxHeightimg = Math.max(maxHeightimg, parseInt(jQuery(this).find('svg').attr('height')));
@@ -374,24 +377,44 @@ function resizeImg(type){
 			if(h - maxHeight - maxHeightct2 < 80){
 				jQuery('#content3').find('.imagefond3 div').css('maxHeight', 80);
 				jQuery('#content3').find('.imagefond3 div svg').css('maxHeight', 'inherit');
+				jQuery('#content3').find('.tg-content2').css('marginTop', 80);
 				
 				jQuery('#content3 .tg-avantage').css('height', h - maxHeight);
 				jQuery('#content3 .tg-ct-txt2').removeAttr('style');
 			}else if(h - maxHeight - maxHeightct2 <= maxHeightimg){
 				jQuery('#content3').find('.imagefond3 div').css('maxHeight', h - maxHeight - maxHeightct2);
 				jQuery('#content3').find('.imagefond3 div svg').css('maxHeight', 'inherit');
+				jQuery('#content3').find('.tg-content2').css('marginTop', h - maxHeight - maxHeightct2 + Math.floor(surplusH / 2));
 				
 				jQuery('#content3 .tg-avantage').css('height', h - maxHeight);
 				jQuery('#content3 .tg-ct-txt2').removeAttr('style');
 			}else{
 				jQuery('#content3').find('.imagefond3 div').removeAttr('style');
 				jQuery('#content3').find('.imagefond3 div svg').css('maxHeight', '100%');
+				jQuery('#content3').find('.tg-content2').css('marginTop', maxHeightimg + surplusH);
 				
 				jQuery('#content3 .tg-avantage').css('height', maxHeightct2 + maxHeightimg + surplusH);
 				marge = Math.floor((h - maxHeight - maxHeightct2 - maxHeightimg) / 2);
 				jQuery('#content3 .tg-ct-txt2').css({'marginBottom' : marge, 'marginTop' : marge});
 			}
 			
+			if(w > 767){
+				jQuery('#content3').find('.imagefond3').each(function(){
+					parent = jQuery(this).parent();
+					element = jQuery(this).detach();
+					if(element){
+						jQuery(element).insertBefore(jQuery(parent).children('.tg-content2'));
+					}
+				});
+			}else{
+				jQuery('#content3').find('.imagefond3').each(function(){
+					parent = jQuery(this).parent();
+					element = jQuery(this).detach();
+					if(element){
+						jQuery(element).insertAfter(parent.children('.tg-content2'));
+					}
+				});
+			}
 			break;
 		
 		case 'page4' : 
@@ -507,13 +530,16 @@ jQuery(function(t){
 				jQuery('.tg-ct-0').css('height', (w <= 1024 ? (w <= 479 ? (h - 70) : (h - 90)) : h));
 			}
 		}
+		
+		// Page 3
+		resizeImg('page3');
 		if(jQuery(window).width() >= 768){		
 			// Page 1,2
 			resizeImg('page1');
 			resizeImg('page2');
 			
 			// Page 3,4
-			resizeImg('page3');
+			// resizeImg('page3');
 			resizeImg('page4');
 		}
 		

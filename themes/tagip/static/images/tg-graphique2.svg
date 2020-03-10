@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="64px" viewBox="0 0 62 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Graphique</title>
+    <desc>Created with Sketch.</desc>
+    <g id="TAG-IP-ACCUEIL" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02-Track" transform="translate(-361.000000, -3271.000000)" stroke="#0071BC">
+            <g id="Graphique" transform="translate(362.000000, 3274.000000)">
+                <polygon id="Path-2" points="0 15.9941714 11.5224484 29.4501961 32.3497591 25.5777477 47.8931335 6.23613985 59.5927996 2.49854208 59.5927996 60 0 60"></polygon>
+                <path d="M0.000252881665,40.1942438 L16.0414379,34.7442127 C16.0414379,34.7442127 28.642569,33.8066221 36.7336923,27.3440226 C44.8248157,20.8814231 47.8384102,15.7723969 51.5526742,12.276678 C55.2669381,8.78095907 59.5927996,5.82993151 59.5927996,5.82993151 L59.5927996,59.2678709 L0,59.2678709 L0.000252881665,40.1942438 Z" id="Path-2-Copy"></path>
+                <polygon id="Path-2-Copy-2" stroke-width="2" points="0 15.6907835 19.4595144 30.9407159 29.6311475 15.4051124 48.6763109 13.5499022 59.7605968 0 59.5927996 59.9650098 0 59.9650098"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
