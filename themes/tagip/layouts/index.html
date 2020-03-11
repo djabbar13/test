@@ -8,7 +8,7 @@
 					{{- end }}
 					
 					{{ if .Params.texte_section_1 -}}
-					<p class="tg-text-slide text-center tg-item tg-animate tg-animate2 animated2" data-animate="fadeInUp" data-cache="fadeOutDown">{{ .Params.texte_section_1 | safeHTML }}</p>
+					<p class="tg-text-slide text-center tg-item tg-animate tg-animate2 animated2 tg-resp-bar" data-animate="fadeInUp" data-cache="fadeOutDown">{{ .Params.texte_section_1 | safeHTML }}</p>
 					{{- end }}
 				</div>
 			</div>
@@ -56,7 +56,7 @@
 												<span class="numb-count" data-waypoint-active="yes" data-speed="3000" data-to="{{ .Params.countto_vehicule_section_3 }}"></span> {{ .Params.text_vehicule_section_3 }}<br /><span class="numb-count" data-waypoint-active="yes" data-speed="3000" data-to="{{ .Params.countto_client_section_3 }}"></span> {{ .Params.text_client_section_3 }} <span class="tg-plus">&nbsp;</span>
 											</h3>
 											<p id="tg_societe_liste">{{ .Params.societe_liste | safeHTML }}</p>
-											<p class="tg-text-1">{{ .Params.texte2_section_3 | safeHTML }}</p>
+											<p class="tg-text-1 tg-resp-bar">{{ .Params.texte2_section_3 | safeHTML }}</p>
 										</div>
 									</div>
 									<div class="clearfix tg-item tg-animate">

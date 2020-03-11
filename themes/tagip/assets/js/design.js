@@ -2,6 +2,7 @@ var w_h = 0;
 var t_1;
 var animation = false;
 var animation2 = false;
+var tempo1 = false;
 
 jQuery(document).ready(function(){
 	var isMobile = {
@@ -345,6 +346,25 @@ function resizeImg(type){
 				setTimeout(function(){ jQuery('body.index1 .imagefond svg').css('min-height', jQuery('#content1 .tg-ct-0b').outerHeight(false)); }, 200);
 			}
 			
+			if(w > 1200){
+				if(tempo1){ clearTimeout(tempo1); }
+				tempo1 = setTimeout(function(){
+					surplusW = Math.ceil(w * 0.04);
+					svgwidth = Math.ceil(jQuery('body.index1 .imagefond svg').outerWidth(false));
+					svgmargel = parseInt(jQuery('body.index1 .imagefond svg').css('left'));
+					svgmarger = parseInt(jQuery('body.index1 .imagefond svg').css('right'));
+					
+					if(svgwidth + svgmargel + svgmarger <= Math.ceil(w / 2) - surplusW){
+						marge = Math.ceil(w / 2) - svgwidth - svgmargel - svgmarger - surplusW;
+						jQuery('body.index1 .imagefond svg').css('left', Math.ceil((marge) / 2));
+					}else{
+						jQuery('body.index1 .imagefond svg').css('left', 0);
+					}
+				}, 500);
+			}else{
+				jQuery('body.index1 .imagefond svg').css('left', 0);
+			}
+			
 			break;
 			
 		case 'page2' : 
@@ -433,13 +453,13 @@ function resizeImg(type){
 			break;
 	}
 }
-var tempo = true;
+var tempo2 = true;
 jQuery(window).on('wheel', function(event){ scrollPage(event); });
 	function scrollPage(event){
 		if(jQuery(window).width() > 1024){
 			scrollLeftPage = parseInt(jQuery('.tg-smart-menu').attr('data-menu'));
 			
-			if(tempo){
+			if(tempo2){
 				if(event.originalEvent.deltaY > 0){
 					// Déplacement Droite
 					switch(scrollLeftPage){
@@ -489,8 +509,8 @@ jQuery(window).on('wheel', function(event){ scrollPage(event); });
 							break;
 					}
 				}
-				tempo = false;
-				setTimeout(function(){ tempo = true; }, 1000);
+				tempo2 = false;
+				setTimeout(function(){ tempo2 = true; }, 1000);
 			}
 		}
 		

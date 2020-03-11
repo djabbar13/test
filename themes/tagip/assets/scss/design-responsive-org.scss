@@ -14,7 +14,7 @@
 @media only screen and (min-device-width : 1920px) {
 	#content1 .panel-grid, #content2 .panel-grid{ max-width: 80%; }
 	#content1 .panel-grid .container, #content2 .panel-grid .container{ width: 100%; }
-	body.index1 .imagefond svg{ margin-left: 5%; }
+	/* body.index1 .imagefond svg{ margin-left: 5%; } */
 	
 	#content3 .panel-grid{ max-width: 80%; }
 	#content3 .panel-grid .container{ width: 100%; }
@@ -435,7 +435,8 @@
 	#content3 .tg-ct-titre{ margin-bottom: 0 !important; }
 	#content3 .tg-ct-txt2{ margin-bottom: 0 !important; margin-top: 0 !important; }
 	#content4{ margin-top: 0; }
-	#tg-ct-0 .tg-ct-0 .tg-text-slide:after{
+	#content1 #tg-ct-2 .tg-client{ margin-bottom: 65px; }
+	.tg-resp-bar:after{
 		background-color: #fff;
 		bottom: -25px;
 		content: '';
