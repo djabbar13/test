@@ -19,20 +19,20 @@ titre_page_track = "Découvrir Track"
 
 #véhicules équipés
 #client
-countto_vehicule_section_3 = 6000
+countto_vehicule_section_3 = "+ 8 000"
 text_vehicule_section_3 = "véhicules équipés"
-countto_client_section_3 = 500
+countto_client_section_3 = "+ 500"
 text_client_section_3 = "clients"
 
 societe_liste = "TOTAL, EXXON, GALANA, JOVENNA, VIVO ENERGY, LPSA, VITOGAZ…<br /><br />TELMA, JIRAMA, MADARAIL, STAR, VIDZAR…<br /><br /> STTA, SODIAT, ENAC, BOLLORE, SALONE, STTE, LEONG, TRD…<br /> <br />SICAM, MADAUTO, MATERAUTO,  CONTINENTAL AUTO, MALGAMOBILE, OCEAN TRADE , CT MOTORS, MOTOSTORE, BUDGET,  LOXEA, EASY RENT, LOCAMAT…<br /><br />SOCOLAIT, GROUPE BASAN, UCODIS, EDELEC, HFF, SOBATRA, FILATEX, ABC GROUP, BFV-SG, BNI, CIMELTA…<br /> <br />HOLCIM, RIOTINTO, AMBATOVY, CIS, PSI, CRS, JSI, NEWREST, BANQUE MONDIALE, DHL, UPS,  TNT, COLIS EXPRESS, LEADER PRICE, ACCORD KNITS…"
 
-texte2_section_3 = "Pour toutes les sociétés commerciales et collectivités possédant une flotte de véhicules : voitures, camions, minibus, motos et bateaux."
+texte2_section_3 = "Pour toutes les sociétés commerciales et collectivités possédant une flotte de véhicules : camions, voitures, minibus, motos, bateaux, quads, remorques…"
 image_section_3 = "/images/accueil-vehicules-equipes.jpg"
 
-titre_section_4 = "Forms : optimisez le rendement de vos salariés"
+titre_section_4 = "Forms : optimiser le rendement de vos salariés"
 texte_a_section_4 = "Les formulaires électroniques et personnalisables ont un impact direct sur la rentabilité de votre société. Cet outil simplifie les saisies de documents, réduit le temps consacré à les remplir, les sauvegarde directement dans un serveur sécurisé et supprime les erreurs inhérentes à la saisie manuelle."
-texte_b_section_4 = "La nouveauté de la fin d'année 2016 est la commercialisation de <span style=\"color:#e1d11a\">FORMS</span>, une application intelligente et révolutionnaire sur tablette Android."
-texte_c_section_4 = "Pour toutes les sociétés utilisant quotidiennement des formulaires, dans tous les secteurs et services possibles : commerciaux, auditeurs, techniciens, distributeurs etc."
+texte_b_section_4 = "<span style=\"color:#e1d11a\">FORMS</span> est une application intelligente et révolutionnaire sur tablette et smartphone."
+texte_c_section_4 = "Pour toutes les sociétés utilisant quotidiennement des formulaires. <br/>Objectif, zéro papier !"
 
 lien_page_forms = "forms/"
 titre_page_forms = "Découvrir Forms"

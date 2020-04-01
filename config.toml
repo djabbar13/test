@@ -110,18 +110,18 @@ disableHugoGeneratorInject = false
 			name = "www.tag-ip.com"
 		
 		[params.footer.sidebar1]
-			[[params.footers.sidebar1.item]]
-				titre = "Annuaire.mg"
-				lien = "https://annuaire.mg"
-				class = "tg-annuaire tg-annuaire-1"
-				separateur = false
-			[[params.footers.sidebar1.item]]
-				separateur = true
-			[[params.footers.sidebar1.item]]
-				titre = "Stileex webzine"
-				lien = "https://stileex.xyz/"
-				class = "tg-annuaire tg-annuaire-2"
-				separateur = false
+			# [[params.footers.sidebar1.item]]
+				# titre = "Annuaire.mg"
+				# lien = "https://annuaire.mg"
+				# class = "tg-annuaire tg-annuaire-1"
+				# separateur = false
+			# [[params.footers.sidebar1.item]]
+				# separateur = true
+			# [[params.footers.sidebar1.item]]
+				# titre = "Stileex webzine"
+				# lien = "https://stileex.xyz/"
+				# class = "tg-annuaire tg-annuaire-2"
+				# separateur = false
 			
 		[params.footers.sidebar2]
 			[[params.footers.sidebar2.item]]
@@ -136,7 +136,7 @@ disableHugoGeneratorInject = false
 				class = "fa fa-linkedin-square"
 			
 		[params.footers.sidebar3]
-			text = "© TAG-IP - 2017 Designed by Magellan Digital"
+			text = "© TAG-IP - 2020 Designed by Magellan Digital"
 
 [languages]
   [languages.fr]
