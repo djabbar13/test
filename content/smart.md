@@ -31,6 +31,12 @@ content3_titre2 = "Contrôles "
 content3_paragraphe3 = "<p>Visualisez en temps réel la position de vos véhicules.</p><p>Contrôlez automatiquement les entrées et sorties de zone.</p><p>Vérifiez la façon de conduire des utilisateurs en recevant des notifications de survitesse.</p>"
 
 content4_prix = "<span class=\"tg-span-tarif\"><strong>38 000 AR TTC</strong> / mois / véhicule</span> ou <span class=\"tg-span-tarif\"><strong>456 000 AR TTC</strong> / an / véhicule</span>"
+content4_prix_titre1 = "Abonnement mensuel <small><strong>38 000 AR</strong> TTC / mois / véhicule</small>"
+content4_prix_texte1 = "Prélèvement automatique <br/>Frais montage/activation : 50 000 AR TTC <br/>Caution : 100 000 AR TTC (Remboursable)"
+content4_prix_texte2 = "ou"
+content4_prix_titre3 = "Abonnement annuel <small><strong>456 000 AR</strong> TTC / véhicule</small>"
+content4_prix_texte3 = "Chèque, espèces ou virement bancaire <br/>Frais montage/activation : offerts <br/>Caution : sans"
+
 content4_titre_principal = "Le package "
 content4_paragraphe1 = "<p>Mise à disposition et montage d’un traceur GPS équipé d’une carte SIM active.</p>"
 content4_paragraphe2 = "<p>Avec VIGIE, vos véhicules sont compatibles avec le pack « Sérénité Mobile », du n°1 en télésurveillance et intervention.</p>"

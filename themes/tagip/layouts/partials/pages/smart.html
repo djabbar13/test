@@ -91,32 +91,46 @@
 				<div class="col-sm-12 clearfix text-center tg-ct-img" style="margin-top: 90px;">
 					<div id="imagefond4"></div>
 				</div>
-				<div class="col-sm-12 tg-ct-txt clearfix">
+				<div class="tg-ct-txt clearfix">
 					<div class="col-sm-12">
-						<p class="text-center tg-tarif tg-item tg-animate tg-animate2" data-animate="fadeIn" data-cache="fadeOut">{{ .Params.content4_prix | safeHTML }}</p>
+						<div class="tg-flex">
+							<div class="tg-flex-item">
+								<p class="tg-titre8">{{ .Params.content4_prix_titre1 | safeHTML  }}</p>
+								<p class="tg-text-9">{{ .Params.content4_prix_texte1 | safeHTML  }}</p>
+							</div>
+							<div class="tg-flex-item">
+								<p class="tg-titre8b">{{ .Params.content4_prix_texte2 | safeHTML  }}</p>
+							</div>
+							<div class="tg-flex-item">
+								<p class="tg-titre8">{{ .Params.content4_prix_titre3 | safeHTML  }}</p>
+								<p class="tg-text-9">{{ .Params.content4_prix_texte3 | safeHTML  }}</p>
+							</div>
+						</div>
 					</div>
 					<div class="col-sm-12">
-						<h1 class="text-center tg-item tg-animate tg-animate2" data-animate="fadeIn" data-cache="fadeOut">{{ .Params.content4_titre_principal }}</h1>
-					</div>
-					<div class="col-sm-3 tg-avantage2">
-						{{ .Params.content4_paragraphe1 | safeHTML  }}
-					</div>
-					
-					<div class="col-sm-3 tg-avantage2">
-						{{ .Params.content4_paragraphe2 | safeHTML  }}
-					</div>
-					
-					<div class="col-sm-3 tg-avantage2">
-						{{ .Params.content4_paragraphe3 | safeHTML  }}
-					</div>
-					
-					<div class="col-sm-3 tg-avantage2">
-						{{ .Params.content4_paragraphe4 | safeHTML  }}
-					</div>
-					
-					<div class="col-sm-12">
-						<div class="col-xs-12 col-sm-6 text-right tg-font-vert tg-item tg-animate tg-animate2" data-animate="fadeIn" data-cache="fadeOut">{{ .Params.content4_tel | safeHTML }}</div>
-						<div class="col-xs-12 col-sm-6 tg-font-vert tg-item tg-animate tg-animate2" data-animate="fadeIn" data-cache="fadeOut">{{ .Params.content4_mail | safeHTML }}</div>
+						<div class="col-sm-12">
+							<h1 class="text-center tg-item tg-animate tg-animate2" data-animate="fadeIn" data-cache="fadeOut">{{ .Params.content4_titre_principal }}</h1>
+						</div>
+						<div class="col-sm-3 tg-avantage2">
+							{{ .Params.content4_paragraphe1 | safeHTML  }}
+						</div>
+						
+						<div class="col-sm-3 tg-avantage2">
+							{{ .Params.content4_paragraphe2 | safeHTML  }}
+						</div>
+						
+						<div class="col-sm-3 tg-avantage2">
+							{{ .Params.content4_paragraphe3 | safeHTML  }}
+						</div>
+						
+						<div class="col-sm-3 tg-avantage2">
+							{{ .Params.content4_paragraphe4 | safeHTML  }}
+						</div>
+						
+						<div class="col-sm-12">
+							<div class="col-xs-12 col-sm-6 text-right tg-font-vert tg-item tg-animate tg-animate2" data-animate="fadeIn" data-cache="fadeOut">{{ .Params.content4_tel | safeHTML }}</div>
+							<div class="col-xs-12 col-sm-6 tg-font-vert tg-item tg-animate tg-animate2" data-animate="fadeIn" data-cache="fadeOut">{{ .Params.content4_mail | safeHTML }}</div>
+						</div>
 					</div>
 				</div>
 			</div>

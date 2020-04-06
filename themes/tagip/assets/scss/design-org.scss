@@ -38,7 +38,7 @@
 }
 
 
-/* * * * Generalite * * * */
+/* * * * Généralite * * * */
 html{
 	min-height: 100%;
 	position: relative;
@@ -1452,6 +1452,40 @@ body.page2 #site-logo:after{
 		color: #F7E000;
 		font-family: MyriadSetProText; 
 		font-weight: normal;
+	}
+	
+	.tg-ct-txt{ clear:both; }
+	.tg-flex{
+		display: flex;
+		/* justify-content: center; */
+		justify-content: space-evenly;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+	.tg-flex .tg-titre8, .tg-flex .tg-titre8b{
+		color: #f7e000;
+		font-family: 'MyriadSetProThin';
+		font-weight: 600;
+		font-size: 29px;
+		line-height: normal;
+	}
+	.tg-flex .tg-titre8b{
+		color: #fff;
+		font-size: 32px;
+	}
+	.tg-flex .tg-titre8 small{
+		color: #fff;
+		display: block;
+		font-size: 16px;
+		word-spacing: 2px;
+	}
+	.tg-flex .tg-titre8 small strong{
+		color: #f7e000;
+		font-size: 23px;
+	}
+	.tg-flex .tg-text-9{
+		font-size: 14px;
+		line-height: 20px;
 	}
 	/* *    FIN NOUVEAU DESIGN    * */
 
