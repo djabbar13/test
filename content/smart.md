@@ -14,13 +14,13 @@ content_onglet_4 = "Tarifs"
 
 content1_titre_principal = "Smart Track"
 content1_titre = "La famille en toute sécurité"
-content1_paragraphe1 = "SSmart Track est un service de géolocalisation, exclusivement destiné aux particuliers.<br/> Suivez jusqu'à 3 de vos véhicules dans la même application (Smartphone et tablette IOS & ANDROID)."
+content1_paragraphe1 = "Smart Track est un service de géolocalisation, exclusivement destiné aux particuliers.<br/> Suivez jusqu'à 3 de vos véhicules dans la même application (Smartphone et tablette IOS & ANDROID)."
 
-content2_titre_principal = "Restez connecter avec votre cercle"
-content2_paragraphe1 = "Visualisez facilement où se trouvent les véhicules transportant votre famille."
+content2_titre_principal = "Restez connectés avec votre cercle"
+content2_paragraphe1 = "Visualisez facilement où sont les véhicules transportant votre famille."
 content2_paragraphe2 = "Grâce aux alertes automatiques de géolocalisation ne vous inquiétez plus de savoir où se trouvent vos enfants."
 
-content3_titre_principal = "Fini les inquietudes"
+content3_titre_principal = "Fini les inquiètudes"
 content3_titre = "Alertes "
 content3_paragraphe1 = "<p>En cas d’accident, vous êtes avertis en temps réel sur votre smartphone avec le géo positionnement de l’incident sur une carte.</p><p>Les véhicules à 4 roues peuvent être équipés d’un bouton panique pour signaler les urgences : panne ou danger.</p>"
 
@@ -30,7 +30,6 @@ content3_titre2 = "Contrôles "
 
 content3_paragraphe3 = "<p>Visualisez en temps réel la position de vos véhicules.</p><p>Contrôlez automatiquement les entrées et sorties de zone.</p><p>Vérifiez la façon de conduire des utilisateurs en recevant des notifications de survitesse.</p>"
 
-content4_prix = "<span class=\"tg-span-tarif\"><strong>38 000 AR TTC</strong> / mois / véhicule</span> ou <span class=\"tg-span-tarif\"><strong>456 000 AR TTC</strong> / an / véhicule</span>"
 content4_prix_titre1 = "Abonnement mensuel <small><strong>38 000 AR</strong> TTC / mois / véhicule</small>"
 content4_prix_texte1 = "Prélèvement automatique <br/>Frais montage/activation : 50 000 AR TTC <br/>Caution : 100 000 AR TTC (Remboursable)"
 content4_prix_texte2 = "ou"
