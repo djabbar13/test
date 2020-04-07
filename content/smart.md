@@ -9,7 +9,7 @@ layout = "tagip2"
 content_onglet_1 = "Smart track"
 content_onglet_2 = "Votre cercle"
 content_onglet_3 = "Avantages"
-content_onglet_4 = "Tarifs"
+content_onglet_4 = "Tarif"
 
 
 content1_titre_principal = "Smart Track"
@@ -20,7 +20,7 @@ content2_titre_principal = "Restez connectés avec votre cercle"
 content2_paragraphe1 = "Visualisez facilement où sont les véhicules transportant votre famille."
 content2_paragraphe2 = "Grâce aux alertes automatiques de géolocalisation ne vous inquiétez plus de savoir où se trouvent vos enfants."
 
-content3_titre_principal = "Fini les inquiètudes"
+content3_titre_principal = "Fini les inquiétudes"
 content3_titre = "Alertes "
 content3_paragraphe1 = "<p>En cas d’accident, vous êtes avertis en temps réel sur votre smartphone avec le géo positionnement de l’incident sur une carte.</p><p>Les véhicules à 4 roues peuvent être équipés d’un bouton panique pour signaler les urgences : panne ou danger.</p>"
 
