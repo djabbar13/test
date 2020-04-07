@@ -156,14 +156,14 @@ disableHugoGeneratorInject = false
 		url        = "track/"
 		weight	   = 2
 	[[menu.main]]
-		identifier = "forms"
-		name       = "Forms"
-		url        = "forms/"
-		weight	   = 3
-	[[menu.main]]
 		identifier = "smart"
 		name       = "Smart track"
 		url        = "smart/"
+		weight	   = 3
+	[[menu.main]]
+		identifier = "forms"
+		name       = "Forms"
+		url        = "forms/"
 		weight	   = 4
 	[[menu.main]]
 		identifier = "contact"
