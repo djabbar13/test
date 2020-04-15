@@ -14,7 +14,7 @@ image_section_4 = "/images/accueil-forms.jpg"
 icone_mail = "/images/tg-mail2.svg"
 texte_mail = "contact@tag-ip.com"
 
-icone_phone = "/images/tg-phone.svg"
+icone_phone = "/images/tg-phone2.svg"
 texte_phone = "+261 34 07 223 05"
 
 icone_adresse = "images/tg-marque.svg"

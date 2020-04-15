@@ -1128,7 +1128,16 @@ body.page2 #site-logo:after{
 		padding-left: 0;
 		padding-right: 0;
 	}
-	.tg-mail2 .tg-icone, .tg-tel .tg-icone{ margin-right: 15px; width: 28px; }
+	.tg-mail2 .tg-icone, .tg-tel .tg-icone{
+		background-size: contain;
+		background-position: bottom left;
+		margin-right: 15px; 
+		width: 28px;
+	}
+	.tg-tel .tg-icone{
+		background-position: center left;
+		background-size: auto 35px;
+	}
 	
 	/* .tg-mail2 .tg-icone{ background-image: url('/images/tg-mail2.svg'); } */
 	/* .tg-tel .tg-icone{ background-image: url('/images/tg-phone.svg'); } */
