@@ -103,7 +103,7 @@ disableHugoGeneratorInject = false
 
   [[params.social]]
     name = "linkedin"
-    url  = "https://www.linkedin.com/company-beta/17981690/"
+    url  = "https://www.linkedin.com/organization-guest/company/tag-ip"
 
 	[params.footer]
 		[params.author]
