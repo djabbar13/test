@@ -22,6 +22,28 @@
 	#content4 .panel-grid{ max-width: 80%; }
 	#content4 .panel-grid .container{ width: 100%; }
 	#content4 .col-sm-3.tg-avantage2{ padding-left: 1em; padding-right: 1em; }
+	
+	/* Effet paralax génant */
+	#masthead{
+		left: 0;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 1650px;
+		right: 0;
+	}
+	#content1.home #tg-ct-0,
+	#content1.home #tg-ct-11{
+		background-size: contain !important;
+		background-attachment: unset;
+	}
+	#content1.home #tg-ct-0 .tg-ct-0{ max-height: 850px !important; }
+	#content1.page-id-55 #tg-ct-11 .tg-ct-11,
+	#content1.page-id-88 #tg-ct-14 .tg-ct-14{
+		background-size: contain !important;
+		background-attachment: unset;
+		max-height: 800px !important;
+	}
+	#tg-ct-11 img, #tg-ct-14 img{ max-height: 800px !important; }
 }
 
 @media only screen and (max-device-width : 1440px) {
